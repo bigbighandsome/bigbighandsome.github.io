@@ -151,6 +151,7 @@
 </div>
 <div style="color:#000000;">and more...</div>
 </div>
+<iframe src="//player.bilibili.com/player.html?aid=590116173&bvid=BV1cq4y1U7sg&cid=395604063&page=1" scrolling="yes" border="1" frameborder="yes" framespacing="1" allowfullscreen="true" width="600" height="400"> </iframe>
 	</body>
 	<div style="letter-spacing: 8px;">1213131</div>
 	<table border="1">
@@ -178,7 +179,37 @@
 				<td>表尾</td>
 			</tr>
 		</tfoot>
-		<iframe src="" frameborder="1" width="200px" height="200px" name="iframe"></iframe>
-		<a href="https://xianyying.github.io" target="iframe">点击显示xianyying网站</a>
+		<iframe src="1" frameborder="1" width="200px" height="200px" name="xian"></iframe>
+		<a href="https://xianyying.github.io" target="xian">点击显示xianyying网站</a>
+		<iframe src="1" frameborder="1" width="200px" height="200px" name="xiang"></iframe><br>
+		<a href="https://bigbighandsome.github.io" target="xiang">点击这里显示bigbighansome网站</a>
+		<button type="button" onclick="twobutton()"><a href="https://xianyying.github.io" target="xian">点击这里显示xianyying网站</a></button>
+		<button type="button" onclick="onebutton()"><a href="https://bigbighandsome.github.io" target="xiang">点击这里显示bigbighansome网站</a></button>
+		<script>
+			function twobutton()
+			{
+				alert("进入网站xianyying网站")
+			}
+			function onebutton()
+			{
+				alert("进入网站bigbighandsome网站");
+			}
+		</script>
+		<p id="text1">点击第一个按钮会改变这个的颜色,这是用JavaScript实现的</p>
+		<p id="text2">点击第二个按钮会改变这个的颜色,这也是用JavaScript实现的</p>
+		<script>
+			function p1()
+			{
+				x = document.getElementById("text1");
+				x.style.color = "#55aaff";
+			}
+			function p2()
+			{
+				x = document.getElementById("text2");
+				x.style.color = "#aa00ff";
+			}
+		</script>
+		<button type="button" onclick="p1()">点击改变颜色</button>
+		<button type="button" onclick="p2()">点击改变颜色</button>
 	</table>
 </html>
