@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>下拉菜单</title>
+    <link rel="stylesheet" href="./reset.css">
+    <style>
+        a{
+            display: block;
+            font-size: 14px;
+            padding: 2px;
+            text-decoration: none;
+            color: black;
+            min-width: auto;
+        }
+        a:hover{
+            color: red;
+            background-color: #666;
+        }
+        .warper{
+            position: relative;
+            display: inline-block;
+            margin: 50px auto;
+        }
+        .button{
+            background-color: green;
+            color: #fff;
+        }
+        .warper:hover .button-content {
+            display: block;
+        }
+        .button-content {
+            display: none;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="warper">
+        <button class="button">下拉菜单</button>
+            <div class="button-content">
+                <a href="#">菜鸟教程1</a>
+                <a href="#">菜鸟教程2</a>
+                <a href="#">菜鸟教程3</a>
+            </div>
+    </div>
+</body>
+</html>
