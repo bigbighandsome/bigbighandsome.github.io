@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>彩蛋</title>
+    <style>
+        #box1 {
+            width: 50px;
+            height: 50px;
+            background-color: orange;
+            position: absolute;
+            top: 200px;
+            left: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box1"></div>
+    <script>
+        var box = document.getElementById('box1');
+        var t = 200;
+        var l = 200;
+        var number = 0;
+        document.onkeydown = function (e) {
+            switch (e.keyCode) {
+                case 37:
+                    l -= 5;
+                    break;
+                case 38:
+                    t -= 5;
+                    break;
+                case 39:
+                    l += 5;
+                    break;
+                case 40:
+                    t += 5;
+                    break;
+            }
+            var a = e.keyCode;
+            number += Number(e.keyCode);
+            console.log(a);
+            console.log(number);
+            box.style.top = t + 'px';
+            box.style.left = l + 'px';
+            if (number == 570) {
+                alert('上上下下左右左右 BABA! ');
+                alert('你竟然还记得这个彩蛋,没错,这个网站就是一个彩蛋大全!!!')
+                number = 0;
+            } else if (number == 1777) {
+                alert('这真的是一个无聊的游戏吗?呜呜呜~我会伤心的(QAQ)')
+                number = 0;
+            }
+        }
+    </script>
+</body>
+
+</html>
