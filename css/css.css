@@ -52,7 +52,10 @@ input:hover {
 }
 
 .footer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
     border: 20px solid transparent;
+
     transition: all 1s;
 }
 
@@ -63,7 +66,6 @@ input:hover {
 .footer>p {
     transition: all 1s;
     height: 50px;
-    margin-top: 10px;
     font-size: 20px;
 }
 
@@ -121,5 +123,10 @@ ul>li {
         width: 100%;
         position: relative;
         left: 0;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
     }
 }
