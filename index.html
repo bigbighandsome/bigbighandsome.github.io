@@ -71,7 +71,7 @@
             border: 5px solid transparent;
             transition: all 1s;
             color: #F4606C;
-            margin-top: 60px;
+            margin-top: 100px;
         }
 
         #button:hover {
@@ -144,7 +144,6 @@
 
             #button {
                 width: 100%;
-                margin-left: -20px;
                 color: #F4606C;
             }
 
@@ -165,22 +164,22 @@
             }
         }
     </style>
-    <script defer src="bundle.js"></script>
+    <script defer src="./dist/bundle.js"></script>
 </head>
 
 <body>
     <div class="right">
         <p>玩法:</p>
         <ul>
-            <li>1.第一个输入框选你现在有什么东西(多个东西用中文逗号分割)</li>
-            <li>2.第二个输入框选你的女神喜欢什么东西(多个东西用中文逗号分割)</li>
-            <li>3.写好了以后,点击'我已经爱上你'</li>
+            <li>1.第一个输入框输入你现在有什么东西(多个东西用中文逗号分割)</li>
+            <li>2.第二个输入框输入你的女神喜欢什么东西(多个东西用中文逗号分割)</li>
+            <li>3.写好了以后,点击'已经喜欢上你了'</li>
         </ul>
     </div>
     <div class="inputbox">
         <input id="myHas" class="input" value="" placeholder="我现在有什么?(如果有多个请用中文逗号，隔开)">
         <input id="youLikes" class="input" value="" placeholder="我喜欢的人喜欢什么?(如果有多个请用中文逗号，隔开)">
-        <button id="button">我已经爱上你</button>
+        <button id="button">已经喜欢上你了</button>
     </div>
     <div class="footer">
         <p id="myhas">我有的</p>

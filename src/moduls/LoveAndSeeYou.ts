@@ -24,7 +24,7 @@ export default function LoveAndSeeYou() {
   let youhas = document.getElementById("youhas") as HTMLElement;
   button.addEventListener("click", () => {
     if (hateMe) {
-      alert("别人都讨厌你了,就别舔了");
+      alert("别人都讨厌你了,就别再喜欢了");
       return;
     }
     let myhasArr = myhas.value.split("，");
@@ -38,7 +38,7 @@ export default function LoveAndSeeYou() {
     myhasmsg = myLove.myHas.join("，");
     youhasmsg = myLove.youHas.join("，");
     if (myhasArr[0] == "") {
-      alert("你什么都没有,你说你舔的什么劲啊?xd");
+      alert("什么都没有,你拿什么喜欢?");
       return;
     }
     if (youlikesArr.length == 0) {
