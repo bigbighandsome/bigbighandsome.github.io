@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>TG</title>
+    <title>TS</title>
     <style>
         * {
             margin: 0;
             padding: 0;
-            color: #d09566;
         }
 
         body {
             overflow-x: hidden;
             display: grid;
-
+            grid-template-columns: 1fr;
+            grid-template-rows: 50px 50px 200px;
         }
 
         .input {
@@ -25,66 +25,79 @@
         }
 
         input {
-            border: 10px solid transparent;
+            width: 100%;
+            background-color: transparent;
+            border: 5px solid transparent;
             transition: all 1s;
+            outline: none;
+            color: #d09566;
+            opacity: 0.8;
+        }
+
+        input:hover {
+            opacity: 1;
         }
 
         input::placeholder {
             color: #d09566;
-            font-size: 24px;
+            font-size: 26px;
+            transition: all 1s;
+            opacity: 1;
         }
 
-        input:hover {
-            border: 10px solid #000;
+        input:hover::placeholder {
+            font-size: 14px;
+            padding-left: 20px;
+            opacity: 0.5;
         }
+
+        #myHas:focus {
+            border: 5px solid #8CC7B5;
+            transform: rotate(10deg);
+        }
+
+        #youLikes:focus {
+            border: 5px solid #8CC7B5;
+            transform: rotateZ(-10deg);
+        }
+
+
 
         #button {
             position: relative;
-            width: 200px;
-            height: 100px;
-            border: none;
-            background-color: #fff;
+            width: 100%;
+            background-color: transparent;
             font-size: 30px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            border: 10px solid #fff;
+            border: 5px solid transparent;
             transition: all 1s;
-            margin-bottom: 30px;
-            margin-top: 30px;
+            color: #F4606C;
+            margin-top: 60px;
         }
 
         #button:hover {
             background-color: #fff;
-            border: 10px solid #000;
+            border: 10px solid #E6CEAC;
+            transform: scale(0.9);
+            transform: translateY(-20px);
         }
 
-        .footer>div {
-            margin-bottom: 30px;
+        .footer {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            border: 5px solid transparent;
+            transition: all 1s;
         }
 
-        .footer #myhas {
-            border: 20px solid #fff;
-            border-left: 10px solid #fff;
+        .footer:hover {
+            border: 5px solid #BEE7E9;
+            transform: scale(0.99);
+        }
+
+        .footer>p {
             transition: all 1s;
             height: 50px;
-            line-height: 50px;
-        }
-
-        .footer #myhas:hover {
-            border: 20px solid #000;
-            border-left: 10px solid #000;
-        }
-
-        .footer #youhas {
-            border: 20px solid #fff;
-            border-left: 10px solid #fff;
-            transition: all 1s;
-            height: 50px;
-            line-height: 50px;
-        }
-
-        .footer #youhas:hover {
-            border: 20px solid #000;
-            border-left: 10px solid #000;
+            font-size: 20px;
+            color: #19CAAD
         }
 
         .right {
@@ -92,6 +105,7 @@
             top: 20%;
             cursor: col-resize;
             margin-bottom: 50px;
+            color: #19CAAD;
         }
 
         ul {
@@ -108,53 +122,71 @@
             font-weight: 600;
         }
 
-        @media (max-width: 768px) {
-            .input {
-                max-height: 100px;
-            }
-
-            #button {
-                margin-top: 20px;
-                margin-bottom: 20px;
+        @media (max-width: 900px) {
+            body {
+                height: 100vh;
+                display: grid;
+                grid-template-rows: 1fr 2fr 1.5fr;
             }
 
             .right {
+                top: 10px;
+            }
+
+            .input {
+                max-height: 30px;
+                font-size: 18px;
+            }
+
+            .input::placeholder {
+                font-size: 16px;
+            }
+
+            #button {
+                width: 100%;
+                margin-left: -20px;
+                color: #F4606C;
+            }
+
+            .right {
+                float: none;
+                width: 100%;
                 position: relative;
                 left: 0;
             }
 
-            .footer>div {
-                height: 50px;
-                border: 5px solid #fff;
-                border-left: 5px solid #fff;
+            .footer {
+                display: grid;
+                grid-template-rows: 1fr 1fr;
+            }
+
+            .footer>#youhas {
+                margin-top: 20px;
             }
         }
     </style>
-    <script defer="defer" src="bundle.js"></script>
-    <script defer="defer" src="bundle.js"></script>
-    <script defer="defer" src="bundle.js"></script>
-    <script defer="defer" src="bundle.js"></script>
+    <script defer src="bundle.js"></script>
 </head>
 
 <body>
     <div class="right">
         <p>玩法:</p>
         <ul>
-            <li>1.第一个输入框选你现在有什么东西(多个东西用英文逗号分割)</li>
-            <li>2.第二个输入框选你的女神喜欢什么东西(多个东西用英文逗号分割)</li>
-            <li>3.写好了以后,点击'我准备好开始舔了'</li>
-            <li>4.下面会显示你舔完后的结果,hahahaha</li>
+            <li>1.第一个输入框选你现在有什么东西(多个东西用中文逗号分割)</li>
+            <li>2.第二个输入框选你的女神喜欢什么东西(多个东西用中文逗号分割)</li>
+            <li>3.写好了以后,点击'我已经爱上你'</li>
         </ul>
-    </div><input id="myHas" class="input" value="" placeholder="我现在有什么东西?(多个用英文逗号,分割)"> <input id="youLikes"
-           class="input" value="" placeholder="我喜欢的人喜欢什么?(多个用英文,逗号分割)"> <button id="button">我准备好开始舔了</button>
-    <div class="top">
-        <div></div>
+    </div>
+    <div class="inputbox">
+        <input id="myHas" class="input" value="" placeholder="我现在有什么?(如果有多个请用中文逗号，隔开)">
+        <input id="youLikes" class="input" value="" placeholder="我喜欢的人喜欢什么?(如果有多个请用中文逗号，隔开)">
+        <button id="button">我已经爱上你</button>
     </div>
     <div class="footer">
-        <div id="myhas">我有的</div>
-        <div id="youhas">你有的</div>
+        <p id="myhas">我有的</p>
+        <p id="youhas">你有的</p>
     </div>
-    <script src="bundle.js"></script>
 </body>
+
 
 </html>
