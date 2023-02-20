@@ -5,18 +5,21 @@ export default class love {
   public myHas: Array<string>; //我有的东西
   public youLikes: Array<string>; //你喜欢的东西
   public myMoney: number; //我的钱
+  public you: string; //你的名字
 
   //写一个构造函数，请在我喜欢上你的时候传进来你的信息
   constructor(
     hateMe: boolean,
     myHas: Array<string>,
     youLikes: Array<string>,
-    myMoney: number
+    myMoney: number,
+    you: string
   ) {
     this.hateMe = hateMe;
     this.myHas = myHas;
     this.youLikes = youLikes;
     this.myMoney = myMoney;
+    this.you = you;
   }
   //定义一个love函数,这个函数的参数是you,代表你
   love(you: string) {
