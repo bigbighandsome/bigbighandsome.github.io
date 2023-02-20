@@ -1,3 +1,4 @@
+// 引入爱
 import love from "./love";
 //这是可视化操作界面(给别人用的,不过程序员可以也在控制台里玩)
 export default function LoveAndSeeYou() {
@@ -32,7 +33,7 @@ export default function LoveAndSeeYou() {
 
     //将你实例化
     let myLove = new love(hateMe, myhasArr, youlikesArr, 3000);
-    //我喜欢上了你
+    //喜欢上了你
     myLove.love("you");
 
     myhasmsg = myLove.myHas.join("，");
