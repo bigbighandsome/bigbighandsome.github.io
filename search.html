@@ -124,12 +124,19 @@
       const image = document.getElementsByClassName("image");
       const show = document.getElementById("show");
       let isLoading = false;
+      let isError = false;
+      let errMsg = "";
       const apiKey = "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";
       const resolution = "256x256";
       const url = "https://api.openai.com/v1/images/generations";
       setInterval(() => {
         if (isLoading) {
           show.innerHTML = "加载中...";
+        } else {
+          show.innerHTML = "这里是图片展示区";
+        }
+        if (isError) {
+          show.innerHTML = errMsg;
         } else {
           show.innerHTML = "这里是图片展示区";
         }
@@ -161,7 +168,10 @@
             }
             isLoading = false;
           })
-          .catch((error) => console.error(error));
+          .catch((error) => {
+            errMsg = error.message;
+            console.error(error);
+          });
       });
     </script>
   </body>
