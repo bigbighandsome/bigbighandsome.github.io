@@ -153,6 +153,7 @@
         }
       }, 100);
       submit.addEventListener("click", () => {
+        isError = false;
         const apiKey = key.value;
         isLoading = true;
         const prompt = search.value;
