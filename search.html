@@ -181,6 +181,7 @@
             isLoading = false;
           })
           .catch((error) => {
+            isError = true;
             errMsg = error.message;
             console.error(error);
           });
