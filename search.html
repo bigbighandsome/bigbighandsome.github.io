@@ -86,6 +86,17 @@
     <div class="wrap">
       <h1>欢迎来到XXYX版AI绘图网页！</h1>
       <div class="view">
+        <label for="search">
+          输入你的key:在
+          <a
+            style="font-size: 22px"
+            href="https://platform.openai.com/account/api-keys"
+            target="_blank">
+            api-keys
+          </a>
+          获取
+        </label>
+        <input type="text" id="key" placeholder="输入你的key..." />
         <label for="search">请输入搜索内容：</label>
         <input
           type="text"
@@ -120,28 +131,29 @@
     </div>
     <script>
       const search = document.getElementById("search");
+      const key = document.getElementById("key");
       const submit = document.getElementById("submit");
       const image = document.getElementsByClassName("image");
       const show = document.getElementById("show");
       let isLoading = false;
       let isError = false;
       let errMsg = "";
-      const apiKey = "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";
       const resolution = "256x256";
       const url = "https://api.openai.com/v1/images/generations";
       setInterval(() => {
         if (isLoading) {
           show.innerHTML = "加载中...";
-        } else {
+        } else if (!isLoading && !isError) {
           show.innerHTML = "这里是图片展示区";
         }
         if (isError) {
           show.innerHTML = errMsg;
-        } else {
+        } else if (!isError && !isLoading) {
           show.innerHTML = "这里是图片展示区";
         }
       }, 100);
       submit.addEventListener("click", () => {
+        const apiKey = "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";
         isLoading = true;
         const prompt = search.value;
         const data = {
