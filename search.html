@@ -97,7 +97,7 @@
           获取
         </label>
         <input type="text" id="key" placeholder="输入你的key..." />
-        <label for="search">请输入搜索内容：</label>
+        <label for="search">输入要查找的图片的特征如：dog,man,woman</label>
         <input
           type="text"
           id="search"
@@ -184,7 +184,7 @@
           .catch((error) => {
             isError = true;
             errMsg = error.message;
-            console.error(error);
+            console.log(error);
           });
       });
     </script>
