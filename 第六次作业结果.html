@@ -117,7 +117,10 @@
     </div>
     <div id="four">
       <h1>生成验证码</h1>
-      <h6>暂时php的代码还不能远程执行，所以我用js重构了下</h6>
+      <h6>
+        暂时php的代码还不能远程执行，所以我用js重构了下 --
+        重构的差不多了，还差颜色
+      </h6>
       <div style="color: red">
         <span
           style="
@@ -190,28 +193,36 @@
     </div>
   </body>
   <script>
-    //稍等老师，我先想下怎么重构
+    //稍等老师，我先想下怎么重构 --- 完成90%
     const code = document.getElementById("code");
-    $code = function () {
-      $characters =
+    function codeFun() {
+      const characters =
         "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-      $random_string = substr(str_shuffle($characters), 0, 6);
-      $div = "<div style='color:red'>";
-      for ($i = 0; $i < strlen($random_string); $i++) {
-        $color = sprintf("#%06X", mt_rand(0, 0xffffff));
-        $fontSize = rand(18, 36) + "px";
-        $rotateX = rand(-40, 60) + "deg";
-        $rotateY = rand(-40, 60) + "deg";
-        $rotateZ = rand(-40, 60) + "deg";
-        $rotate3D = rand(20, 30) + "deg";
-        $div +=
-          "<span style='margin-right:6px;color:$color;font-size:$fontSize;transform:  rotateX($rotateX) rotateY($rotateY) rotateZ($rotateZ) rotate3d(1,1,1,$rotate3D); display:inline-block'>$random_string[$i]</span>";
-        $color = "";
-        $fontSize = "0";
+      let random_string = "";
+      for (let i = 0; i < 6; i++) {
+        let index = Math.floor(Math.random() * (characters.length - 0));
+        random_string += characters[index];
       }
-      $div += "</div>";
-      return $div;
-    };
-    code.appendChild($code());
+      const div = document.createElement("div");
+      for (let i = 0; i < random_string.length; i++) {
+        let $color = "red";
+        let $fontSize = Math.floor(Math.random() * (36 - 18) + 18) + "px";
+        let $rotateX = Math.floor(Math.random() * (60 - 40) + 40);
+        +"deg";
+        let $rotateY = Math.floor(Math.random() * (60 - 40) + 40);
+        +"deg";
+        let $rotateZ = Math.floor(Math.random() * (60 - 40) + 40);
+        +"deg";
+        let $rotate3D = Math.floor(Math.random() * (30 - 20) + 20);
+        +"deg";
+        const span = document.createElement("span");
+        span.innerHTML = random_string[i];
+        span.style = `margin-right:6px;color:${$color};font-size:${$fontSize};transform: rotateX(${$rotateX}) rotateY(${$rotateY}) rotateZ(${$rotateZ}) rotate3d(1,1,1,$${$rotate3D}); display:inline-block`;
+        div.appendChild(span);
+      }
+      return div;
+    }
+    code.appendChild(codeFun());
+    codeFun();
   </script>
 </html>
