@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="one">
+      <h1>数组排序1</h1>
+      使用sort()对数组$arr1排序，使用print_r ()输出数组观察结果，输出最小值:44
+      <br />
+      <hr />
+      使用rsort()对数组$arr1排序，使用print_r ()输出数组观察结果，输出最大值:99
+      <br />
+      <hr />
+      使用asort()对数组$arr1排序，使用print_r ()输出数组观察结果:Array ( [9] =>
+      44 [8] => 56 [7] => 64 [6] => 74 [5] => 77 [4] => 87 [3] => 89 [2] => 96
+      [1] => 98 [0] => 99 )
+      <br />
+      <hr />
+      使用arsort()对数组$arr1排序，使用print_r ()输出数组观察结果:Array ( [9] =>
+      44 [8] => 56 [7] => 64 [6] => 74 [5] => 77 [4] => 87 [3] => 89 [2] => 96
+      [1] => 98 [0] => 99 )
+      <br />
+      <hr />
+      删除数组头部1个元素，使用print_r ()输出数组观察结果:Array ( [0] => 56 [1]
+      => 64 [2] => 74 [3] => 77 [4] => 87 [5] => 89 [6] => 96 [7] => 98 [8] =>
+      99 )
+      <br />
+      <hr />
+      删除数组尾部1个元素，使用print_r ()输出数组观察结果:Array ( [0] => 56 [1]
+      => 64 [2] => 74 [3] => 77 [4] => 87 [5] => 89 [6] => 96 [7] => 98 )
+      <br />
+      <hr />
+      使用shuffle()对数组$arr1排序，使用print_r ()输出数组观察结果:Array ( [0]
+      => 96 [1] => 87 [2] => 98 [3] => 89 [4] => 56 [5] => 77 [6] => 74 [7] =>
+      64 )
+      <br />
+    </div>
+    <div id="two">
+      <h2>数组排序2</h2>
+      使用array_reverse()使元素顺序相反的数组，使用print_r ()输出观察结果：
+      <br />
+      <hr />
+      Array ( [name] => Volvo [city] => BMW [country] => Toyota )
+      <br />
+      使用ksort()对数组$arr2排序，使用print_r ()输出数组观察结果：
+      <br />
+      <hr />
+      Array ( [city] => BMW [country] => Toyota [name] => Volvo )
+      <br />
+      使用krsort()对数组$arr2排序，使用print_r ()输出数组观察结果：
+      <br />
+      <hr />
+      Array ( [name] => Volvo [country] => Toyota [city] => BMW )
+    </div>
+    <div id="three">
+      <h1>数组检索</h1>
+      使用array_keys()，查找'60'所对应的键，使用print_r ()输出观察结果
+      <br />
+      Array ( [0] => 张三 [1] => 赵六 [2] => 孙七 )
+      <hr />
+      使用array_keys()，使用严格模式查找'60'所对应的键，输出值为'60'的个数
+      <br />
+      2
+      <hr />
+      使用array_values()获取数组中的所有值
+      <br />
+      Array ( [0] => 60 [1] => 50 [2] => 40 [3] => 60 [4] => 60 )
+      <hr />
+      使用array_search()，查找'60'所对应的键，输出观察结果
+      <br />
+      张三
+      <hr />
+      使用array_search()，使用严格模式查找数组是否存在40，输出观察结果
+      <br />
+      <pre class="xdebug-var-dump" dir="ltr">
+<small>C:\wamp64\www\PHP\第六次作业\数组检索.php:28:</small><small>boolean</small> <font color='#75507b'>true</font>
+</pre>
+      <hr />
+      使用in_array()，查找40值是否在数组，输出结果
+      <br />
+      <pre class="xdebug-var-dump" dir="ltr">
+<small>C:\wamp64\www\PHP\第六次作业\数组检索.php:33:</small><small>boolean</small> <font color='#75507b'>true</font>
+</pre>
+      <hr />
+      使用in_array()，查找40值是否在数组，输出结果
+      <br />
+      <pre class="xdebug-var-dump" dir="ltr">
+<small>C:\wamp64\www\PHP\第六次作业\数组检索.php:38:</small><small>boolean</small> <font color='#75507b'>true</font>
+</pre>
+      <hr />
+      使用array_key_exists，查找“张三”键是否在数组，输出结果
+      <br />
+      <pre class="xdebug-var-dump" dir="ltr">
+<small>C:\wamp64\www\PHP\第六次作业\数组检索.php:43:</small><small>boolean</small> <font color='#75507b'>true</font>
+</pre>
+      <hr />
+      将$arr3数组使用array_chunk()拆分成2个数组，保留原来的键名，使用print_r打印输出数组
+      <br />
+      <pre class="xdebug-var-dump" dir="ltr">
+<small>C:\wamp64\www\PHP\第六次作业\数组检索.php:48:</small>
+<b>array</b> <i>(size=2)</i>
+  0 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=3)</i>
+      '张三' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'60'</font> <i>(length=2)</i>
+      '李四' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'50'</font> <i>(length=2)</i>
+      '王五' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'40'</font> <i>(length=2)</i>
+  1 <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      '赵六' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'60'</font> <i>(length=2)</i>
+      '孙七' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>60</font>
+</pre>
+      <hr />
+    </div>
+    <div id="four">
+      <h1>生成验证码</h1>
+      <h6>暂时php的代码还不能远程执行，所以我用js重构了下</h6>
+      <div style="color: red">
+        <span
+          style="
+            margin-right: 6px;
+            color: #ec7034;
+            font-size: 20px;
+            transform: rotateX(13deg) rotateY(54deg) rotateZ(54deg)
+              rotate3d(1, 1, 1, 28deg);
+            display: inline-block;
+          ">
+          r
+        </span>
+        <span
+          style="
+            margin-right: 6px;
+            color: #215ff1;
+            font-size: 28px;
+            transform: rotateX(17deg) rotateY(-36deg) rotateZ(4deg)
+              rotate3d(1, 1, 1, 30deg);
+            display: inline-block;
+          ">
+          A
+        </span>
+        <span
+          style="
+            margin-right: 6px;
+            color: #02efc3;
+            font-size: 29px;
+            transform: rotateX(38deg) rotateY(-35deg) rotateZ(-9deg)
+              rotate3d(1, 1, 1, 27deg);
+            display: inline-block;
+          ">
+          i
+        </span>
+        <span
+          style="
+            margin-right: 6px;
+            color: #ec2791;
+            font-size: 35px;
+            transform: rotateX(22deg) rotateY(36deg) rotateZ(-6deg)
+              rotate3d(1, 1, 1, 25deg);
+            display: inline-block;
+          ">
+          N
+        </span>
+        <span
+          style="
+            margin-right: 6px;
+            color: #e9659d;
+            font-size: 29px;
+            transform: rotateX(-22deg) rotateY(14deg) rotateZ(3deg)
+              rotate3d(1, 1, 1, 21deg);
+            display: inline-block;
+          ">
+          c
+        </span>
+        <span
+          style="
+            margin-right: 6px;
+            color: #ae5baa;
+            font-size: 20px;
+            transform: rotateX(18deg) rotateY(18deg) rotateZ(36deg)
+              rotate3d(1, 1, 1, 22deg);
+            display: inline-block;
+          ">
+          B
+        </span>
+      </div>
+      <div id="code"></div>
+    </div>
+  </body>
+  <script>
+    const code = document.getElementById("code");
+    $code = function () {
+      $characters =
+        "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      $random_string = substr(str_shuffle($characters), 0, 6);
+      $div = "<div style='color:red'>";
+      for ($i = 0; $i < strlen($random_string); $i++) {
+        $color = sprintf("#%06X", mt_rand(0, 0xffffff));
+        $fontSize = rand(18, 36) + "px";
+        $rotateX = rand(-40, 60) + "deg";
+        $rotateY = rand(-40, 60) + "deg";
+        $rotateZ = rand(-40, 60) + "deg";
+        $rotate3D = rand(20, 30) + "deg";
+        $div +=
+          "<span style='margin-right:6px;color:$color;font-size:$fontSize;transform:  rotateX($rotateX) rotateY($rotateY) rotateZ($rotateZ) rotate3d(1,1,1,$rotate3D); display:inline-block'>$random_string[$i]</span>";
+        $color = "";
+        $fontSize = "0";
+      }
+      $div += "</div>";
+      return $div;
+    };
+    code.appendChild($code());
+  </script>
+</html>
