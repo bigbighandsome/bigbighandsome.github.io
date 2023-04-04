@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style></style>
   </head>
   <body>
     <div id="one">
@@ -205,19 +206,17 @@
       }
       const div = document.createElement("div");
       for (let i = 0; i < random_string.length; i++) {
-        let $color = "red";
+        let $color = `rgba(${Math.floor(Math.random() * 256)},${Math.floor(
+          Math.random() * 256
+        )},${Math.floor(Math.random() * 256)},1)`;
         let $fontSize = Math.floor(Math.random() * (36 - 18) + 18) + "px";
-        let $rotateX = Math.floor(Math.random() * (60 - 40) + 40);
-        +"deg";
-        let $rotateY = Math.floor(Math.random() * (60 - 40) + 40);
-        +"deg";
-        let $rotateZ = Math.floor(Math.random() * (60 - 40) + 40);
-        +"deg";
-        let $rotate3D = Math.floor(Math.random() * (30 - 20) + 20);
-        +"deg";
+        let $rotateX = Math.floor(Math.random() * (20 - 10) + 10) + "deg";
+        let $rotateY = Math.floor(Math.random() * (20 - 10) + 10) + "deg";
+        let $rotateZ = Math.floor(Math.random() * (50 - 40) + 40) + "deg";
+        let $rotate3D = Math.floor(Math.random() * (60 - 20) + 20) + "deg";
         const span = document.createElement("span");
         span.innerHTML = random_string[i];
-        span.style = `margin-right:6px;color:${$color};font-size:${$fontSize};transform: rotateX(${$rotateX}) rotateY(${$rotateY}) rotateZ(${$rotateZ}) rotate3d(1,1,1,$${$rotate3D}); display:inline-block`;
+        span.style = `margin-right:6px;color:${$color};font-size: ${$fontSize};transform: rotateX(${$rotateX}) rotateY(${$rotateY}) rotate3d(1,1,1,${$rotate3D}); display:inline-block`;
         div.appendChild(span);
       }
       return div;
