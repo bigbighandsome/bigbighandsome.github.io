@@ -13,15 +13,16 @@
       .wrap .img-item {
         margin: 0 auto;
         width: 100%;
-        background-color: aqua;
+        border: 1px solid rebeccapurple;
+        border-radius: 50%;
       }
       .img-item img {
         width: 100%;
         height: 100%;
+        border-radius: 50%;
       }
       button {
         width: 100%;
-
         height: 60px;
         outline: none;
         border: none;
@@ -29,14 +30,27 @@
         border-radius: 10px;
         background-color: aqua;
       }
+      .update {
+        background-color: aquamarine;
+        border-radius: 20px;
+      }
     </style>
   </head>
   <body>
     <div class="wrap">
-      <div class="img-item">
-        <img src="./bird.jpg" alt="" />
+      <div class="bird">
+        <div class="img-item">
+          <img src="./bird.jpg" alt="" />
+        </div>
+        <ul class="update">
+          <div>更新内容:</div>
+          <li>增加了蓝色小鸟</li>
+          <li>增加了分数系统</li>
+          <li>优化了手感，小小鸟也能很好的拖拽啦</li>
+          <li>修复了一系列的bug</li>
+        </ul>
+        <button onclick="DownBird()">点击下载愤怒的小鸟！！！</button>
       </div>
-      <button onclick="DownBird()">点击下载愤怒的小鸟！！！</button>
     </div>
     <script>
       function DownBird() {
