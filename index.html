@@ -9,79 +9,106 @@
       .wrap {
         width: 100%;
         height: 100vh;
+        display: flex;
+        justify-content: space-between;
       }
       .wrap .img-item {
         margin: 0 auto;
         width: 100%;
-        border: 1px solid rebeccapurple;
+        height: 460px;
+        border: 1px solid #ffc0cb;
         border-radius: 50%;
+      }
+      .line {
+        width: 1px;
+        height: 100vh;
+        background-color: #0077be;
+      }
+      .wrap .wrap-item {
+        width: 46%;
+        height: 200px;
       }
       .img-item img {
         width: 100%;
         height: 100%;
         border-radius: 50%;
       }
-      button {
-        width: 100%;
-        height: 60px;
+      .button-item {
+        width: 100px;
+        height: 100px;
+        margin: 10px auto;
         outline: none;
         border: none;
         border: 1px solid skyblue;
-        border-radius: 10px;
-        background-color: aqua;
+        border-radius: 50%;
+        background-color: #ffa500;
+        text-align: center;
+        line-height: 100px;
+        transition: all 1s;
+      }
+      .button-item:hover {
+        scale: 1.1;
+      }
+      .button-item span {
+        font-weight: 200;
       }
       .update {
-        background-color: aquamarine;
+        width: 90%;
+        height: 160px;
+        margin: 0 auto;
+        background-color: #0077be;
         border-radius: 20px;
-        margin: 60px 0;
       }
-      .tips {
-        width: 100%;
-      }
-      .tips h1 {
-        width: 100%;
-        color: burlywood;
-        border: 1px solid salmon;
-        border-radius: 50%;
-      }
-      .tips iframe {
-        width: 100%;
-        height: 100vh;
+      .update h3 {
+        padding-top: 6px;
+        line-height: 20px;
       }
     </style>
   </head>
   <body>
-    <h3><a href="">作业</a></h3>
     <div class="wrap">
-      <div class="bird">
-        <div class="img-item">
-          <img src="./bird.jpg" alt="" />
+      <div class="wrap-item">
+        <div class="bird">
+          <div class="img-item">
+            <img src="./bird.jpg" alt="" />
+          </div>
+          <ul class="update">
+            <h3>更新内容:</h3>
+            <li>增加了蓝色小鸟</li>
+            <li>增加了分数系统</li>
+            <li>优化了手感，小小鸟也能很好的拖拽啦</li>
+            <li>修复了一系列的bug</li>
+          </ul>
         </div>
-        <ul class="update">
-          <div>更新内容:</div>
-          <li>增加了蓝色小鸟</li>
-          <li>增加了分数系统</li>
-          <li>优化了手感，小小鸟也能很好的拖拽啦</li>
-          <li>修复了一系列的bug</li>
-        </ul>
-        <button onclick="DownBird()">点击下载愤怒的小鸟！！！</button>
-        <div class="tips">
-          <h1>
-            这个游戏的教程在这里哦,很简单的,如果大家对游戏开发感兴趣的话,真的很建议大家学一学
-          </h1>
-          <iframe
-            src="//player.bilibili.com/player.html?aid=901682490&bvid=BV1aN4y1w7Cc&cid=864008181&page=1"
-            scrolling="no"
-            border="0"
-            frameborder="no"
-            framespacing="0"
-            allowfullscreen="true"></iframe>
+        <div class="button-item">
+          <div onclick="DownBird()">下载</div>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="wrap-item">
+        <div class="zombie">
+          <div class="img-item">
+            <img src="./zombie.jpg" alt="" />
+          </div>
+          <ul class="update">
+            <h3>游戏介绍:</h3>
+            <li>还原了原版40%的功能</li>
+            <li>根据一位超级大美铝的想法设计了一株超级厉害的无敌狂魔植物</li>
+            <li>有无尽模式哦</li>
+            <li>还有简单，正常，困难三种模式供你选择哦</li>
+          </ul>
+        </div>
+        <div class="button-item">
+          <div onclick="DownZombie()">下载</div>
         </div>
       </div>
     </div>
     <script>
       function DownBird() {
         window.location.href = "./brid-xxyx.apk";
+      }
+      function DownZombie() {
+        window.location.href = "./PVZ_wudikuangmo.apk";
       }
     </script>
   </body>
