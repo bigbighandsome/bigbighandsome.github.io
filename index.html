@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>我的游戏</title>
     <style>
+      * {
+        box-sizing: border-box;
+      }
       .wrap {
         width: 100%;
         height: 100vh;
@@ -15,7 +18,7 @@
       .wrap .img-item {
         margin: 0 auto;
         width: 100%;
-        height: 460px;
+        height: 200px;
         border: 1px solid #ffc0cb;
         border-radius: 50%;
       }
@@ -54,10 +57,15 @@
       }
       .update {
         width: 90%;
-        height: 160px;
+        height: 30vh;
+        text-decoration: double;
         margin: 0 auto;
         background-color: #0077be;
         border-radius: 20px;
+      }
+      .update li {
+        margin-right: 6px;
+        margin-bottom: 5px;
       }
       .update h3 {
         padding-top: 6px;
