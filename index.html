@@ -8,6 +8,11 @@
     <style>
       * {
         box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        overflow-x: hidden;
       }
       .wrap {
         width: 100%;
@@ -30,6 +35,7 @@
       .wrap .wrap-item {
         width: 46%;
         height: 100vh;
+        margin-top: 30px;
       }
       .img-item img {
         width: 100%;
@@ -62,9 +68,15 @@
         margin: 0 auto;
         background-color: #0077be;
         border-radius: 20px;
+        padding: 20px;
+        margin-top: 60px;
       }
       .update li {
         margin-bottom: 1em;
+        margin-top: 5px;
+        list-style: georgian;
+        background-color: #ffc0cb;
+        border-radius: 6px;
       }
       .update h3 {
         padding-top: 6px;
@@ -73,7 +85,11 @@
       @media (max-width: 767px) {
         /*适用于最大屏幕宽度小于等于767像素的所有设备*/
         .wrap .img-item {
-          height: 30vh;
+          height: 23vh;
+        }
+        .wrap .wrap-item .update {
+          height: 56vh;
+          font-size: 14px;
         }
       }
     </style>
