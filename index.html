@@ -92,9 +92,13 @@
           font-size: 14px;
         }
       }
+      p[class~="value"] {
+        color: red;
+      }
     </style>
   </head>
   <body>
+    <p class="class_one value">this is p tag , value is one one one</p>
     <div class="wrap">
       <div class="wrap-item">
         <div class="bird">
@@ -151,6 +155,10 @@
       function DownZombie() {
         window.location.href = "./PVZ_wudikuangmo1.4.apk";
       }
+      let regex = /^(?<latter>abc)(\d+)$/;
+      let str = "abc23419849198";
+      let result = regex.exec(str);
+      console.log(result);
     </script>
   </body>
 </html>
