@@ -1,90 +1,78 @@
 ManifestFileVersion: 0
-CRC: 3999431208
+CRC: 2108126589
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: assets_fonts.bundle
-      Dependencies:
-        Dependency_0: unityshaders.bundle
-    Info_1:
       Name: assets_music.bundle
       Dependencies: {}
-    Info_2:
+    Info_1:
       Name: assets_prefabs_game.bundle
       Dependencies:
         Dependency_0: assets_myassets_ui_gue.bundle
         Dependency_1: share_assets_animations.bundle
         Dependency_2: share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle
-    Info_3:
-      Name: assets_prefabs_level.bundle
-      Dependencies:
-        Dependency_0: assets_fonts.bundle
-        Dependency_1: assets_music.bundle
-        Dependency_2: assets_prefabs_game.bundle
-        Dependency_3: assets_myassets_boss.bundle
-        Dependency_4: assets_myassets_ui.bundle
-        Dependency_5: share_assets_animations.bundle
-        Dependency_6: share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle
-        Dependency_7: share_assets_2d progress bar toolkit_sprites_bar_01_animal_png.bundle
-    Info_4:
+    Info_2:
       Name: assets_prefabs_resources.bundle
       Dependencies:
-        Dependency_0: assets_fonts.bundle
-        Dependency_1: assets_myassets_ui_loading.bundle
-        Dependency_2: assets_myassets_ui_loading_dec.bundle
-    Info_5:
+        Dependency_0: assets_myassets_ui_loading.bundle
+        Dependency_1: assets_myassets_ui_loading_dec.bundle
+        Dependency_2: share_assets_fonts.bundle
+    Info_3:
       Name: assets_prefabs_test.bundle
       Dependencies:
         Dependency_0: share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle
         Dependency_1: share_packages_com_unity_2d_sprite_editor_objectmenucreation_defaultassets_textures_v2.bundle
-    Info_6:
+    Info_4:
       Name: assets_scenes.bundle
       Dependencies:
-        Dependency_0: assets_fonts.bundle
-        Dependency_1: assets_music.bundle
-        Dependency_2: assets_prefabs_level.bundle
-        Dependency_3: assets_prefabs_test.bundle
+        Dependency_0: assets_music.bundle
+        Dependency_1: assets_prefabs_game.bundle
+        Dependency_2: assets_prefabs_test.bundle
+        Dependency_3: assets_myassets_boss.bundle
         Dependency_4: assets_myassets_ui.bundle
         Dependency_5: "assets_myassets_\u751F\u65E5\u5FEB\u4E50gif.bundle"
-        Dependency_6: share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle
-    Info_7:
+        Dependency_6: unityshaders.bundle
+        Dependency_7: share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle
+        Dependency_8: share_assets_fonts.bundle
+    Info_5:
       Name: assets_myassets_boss.bundle
       Dependencies: {}
-    Info_8:
+    Info_6:
       Name: assets_myassets_ui.bundle
       Dependencies: {}
-    Info_9:
+    Info_7:
       Name: assets_myassets_ui_gue.bundle
       Dependencies: {}
-    Info_10:
+    Info_8:
       Name: assets_myassets_ui_loading.bundle
       Dependencies: {}
-    Info_11:
+    Info_9:
       Name: assets_myassets_ui_loading_dec.bundle
       Dependencies: {}
-    Info_12:
+    Info_10:
       Name: "assets_myassets_\u751F\u65E5\u5FEB\u4E50bk.bundle"
       Dependencies: {}
-    Info_13:
+    Info_11:
       Name: "assets_myassets_\u751F\u65E5\u5FEB\u4E50gif.bundle"
       Dependencies: {}
-    Info_14:
+    Info_12:
       Name: unityshaders.bundle
       Dependencies: {}
-    Info_15:
-      Name: share_packages_com_unity_textmeshpro_editor resources_gizmos.bundle
-      Dependencies: {}
-    Info_16:
+    Info_13:
       Name: share_assets_animations.bundle
       Dependencies:
         Dependency_0: assets_myassets_ui_gue.bundle
-    Info_17:
+    Info_14:
       Name: share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle
       Dependencies:
         Dependency_0: unityshaders.bundle
-    Info_18:
-      Name: share_assets_2d progress bar toolkit_sprites_bar_01_animal_png.bundle
+    Info_15:
+      Name: share_assets_fonts.bundle
+      Dependencies:
+        Dependency_0: unityshaders.bundle
+    Info_16:
+      Name: share_packages_com_unity_textmeshpro_editor resources_gizmos.bundle
       Dependencies: {}
-    Info_19:
+    Info_17:
       Name: share_packages_com_unity_2d_sprite_editor_objectmenucreation_defaultassets_textures_v2.bundle
       Dependencies: {}
