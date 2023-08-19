@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 3987998724
+CRC: 1515334165
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -32,8 +32,9 @@ AssetBundleManifest:
         Dependency_4: assets_myassets_ui.bundle
         Dependency_5: "assets_myassets_\u751F\u65E5\u5FEB\u4E50gif.bundle"
         Dependency_6: unityshaders.bundle
-        Dependency_7: share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle
-        Dependency_8: share_assets_fonts.bundle
+        Dependency_7: assets_myassets_pets.bundle
+        Dependency_8: share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle
+        Dependency_9: share_assets_fonts.bundle
     Info_5:
       Name: assets_myassets_boss.bundle
       Dependencies: {}
@@ -59,20 +60,23 @@ AssetBundleManifest:
       Name: unityshaders.bundle
       Dependencies: {}
     Info_13:
+      Name: assets_myassets_pets.bundle
+      Dependencies: {}
+    Info_14:
       Name: share_assets_animations.bundle
       Dependencies:
         Dependency_0: assets_myassets_ui_gue.bundle
-    Info_14:
+    Info_15:
       Name: share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle
       Dependencies:
         Dependency_0: unityshaders.bundle
-    Info_15:
+    Info_16:
       Name: share_assets_fonts.bundle
       Dependencies:
         Dependency_0: unityshaders.bundle
-    Info_16:
+    Info_17:
       Name: share_packages_com_unity_textmeshpro_editor resources_gizmos.bundle
       Dependencies: {}
-    Info_17:
+    Info_18:
       Name: share_packages_com_unity_2d_sprite_editor_objectmenucreation_defaultassets_textures_v2.bundle
       Dependencies: {}
