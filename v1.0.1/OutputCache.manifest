@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 190369527
+CRC: 2443556874
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -15,7 +15,7 @@ AssetBundleManifest:
       Dependencies:
         Dependency_0: assets_myassets_ui_loading.bundle
         Dependency_1: assets_myassets_ui_loading_dec.bundle
-        Dependency_2: share_assets_fonts.bundle
+        Dependency_2: assets_fonts.bundle
     Info_3:
       Name: assets_prefabs_test.bundle
       Dependencies: {}
@@ -29,7 +29,7 @@ AssetBundleManifest:
         Dependency_4: assets_myassets_pets.bundle
         Dependency_5: assets_myassets_ui.bundle
         Dependency_6: "assets_myassets_\u751F\u65E5\u5FEB\u4E50gif.bundle"
-        Dependency_7: share_assets_fonts.bundle
+        Dependency_7: assets_fonts.bundle
         Dependency_8: unityshaders.bundle
     Info_5:
       Name: assets_myassets_boss.bundle
@@ -59,16 +59,16 @@ AssetBundleManifest:
       Name: "assets_myassets_\u751F\u65E5\u5FEB\u4E50gif.bundle"
       Dependencies: {}
     Info_14:
+      Name: assets_fonts.bundle
+      Dependencies:
+        Dependency_0: unityshaders.bundle
+    Info_15:
+      Name: unityshaders.bundle
+      Dependencies: {}
+    Info_16:
       Name: share_assets_animations.bundle
       Dependencies:
         Dependency_0: assets_myassets_ui_gue.bundle
-    Info_15:
-      Name: share_assets_fonts.bundle
-      Dependencies:
-        Dependency_0: unityshaders.bundle
-    Info_16:
-      Name: unityshaders.bundle
-      Dependencies: {}
     Info_17:
       Name: share_packages_com_unity_textmeshpro_editor resources_gizmos.bundle
       Dependencies: {}
