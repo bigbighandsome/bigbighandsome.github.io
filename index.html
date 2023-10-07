@@ -1,165 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>我们的游戏</title>
-    <style>
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
-      body {
-        overflow-x: hidden;
-      }
-      .wrap {
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        justify-content: space-between;
-      }
-      .wrap .img-item {
-        margin: 0 auto;
-        width: 100%;
-        height: 60vh;
-        border: 1px solid #ffc0cb;
-        border-radius: 50%;
-      }
-      .line {
-        width: 1px;
-        height: 100vh;
-        background-color: #0077be;
-      }
-      .wrap .wrap-item {
-        width: 46%;
-        height: 100vh;
-        margin-top: 30px;
-      }
-      .img-item img {
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-      }
-      .button-item {
-        width: 100px;
-        height: 100px;
-        margin: 10px auto;
-        outline: none;
-        border: none;
-        border: 1px solid skyblue;
-        border-radius: 50%;
-        background-color: #ffa500;
-        text-align: center;
-        line-height: 100px;
-        transition: all 1s;
-      }
-      .button-item:hover {
-        scale: 1.1;
-      }
-      .button-item span {
-        font-weight: 200;
-      }
-      .update {
-        width: 90%;
-        height: 60vh;
-        text-decoration: double;
-        margin: 0 auto;
-        background-color: #0077be;
-        border-radius: 20px;
-        padding: 20px;
-        margin-top: 60px;
-      }
-      .update li {
-        margin-bottom: 1em;
-        margin-top: 5px;
-        list-style: georgian;
-        background-color: #ffc0cb;
-        border-radius: 6px;
-      }
-      .update h3 {
-        padding-top: 6px;
-        line-height: 20px;
-      }
-      @media (max-width: 767px) {
-        /*适用于最大屏幕宽度小于等于767像素的所有设备*/
-        .wrap .img-item {
-          height: 23vh;
-        }
-        .wrap .wrap-item .update {
-          height: 56vh;
-          font-size: 14px;
-        }
-      }
-      p[class~="value"] {
-        color: red;
-      }
-    </style>
-  </head>
-  <body>
-    <p class="class_one value">this is p tag , value is one one one</p>
-    <div class="wrap">
-      <div class="wrap-item">
-        <div class="bird">
-          <div class="img-item">
-            <img src="./bird.jpg" alt="" />
-          </div>
-          <ul class="update">
-            <h3>更新内容:</h3>
-            <li>增加了蓝色小鸟</li>
-            <li>增加了分数系统</li>
-            <li>优化了手感，小小鸟也能很好的拖拽啦</li>
-            <li>修复了一系列的bug</li>
-          </ul>
-        </div>
-        <div class="button-item">
-          <div onclick="DownBird()">下载</div>
-        </div>
-      </div>
-      <div class="line"></div>
-      <div class="wrap-item">
-        <div class="zombie">
-          <div class="img-item">
-            <img src="./zombie.jpg" alt="" />
-          </div>
-          <ul class="update">
-            <h3>游戏介绍:</h3>
-            <li>还原了原版40%的功能</li>
-            <li>根据一位超级大美铝的想法设计了一株超级厉害的无敌狂魔植物</li>
-            <li>有无尽模式哦</li>
-            <li>还有简单，正常，困难三种模式供你选择哦</li>
-            <h4>
-              更新内容:
-              <br />
-              <span style="font-weight: bold; font-size: 8px">
-                最新版本:v1.4
-              </span>
-            </h4>
-            <li>加入公告，加入联网功能，大家不必等我发空间才能更新游戏了~</li>
-            <li>这次更新真是泰裤辣</li>
-          </ul>
-        </div>
-        <div class="button-item">
-          <div onclick="DownZombie()">下载</div>
-        </div>
-      </div>
-    </div>
-    <div id="unity" style="display: none">
-      π$1.6$大家好呀，我是xxyx，极其的沉迷游戏，哈哈哈，是个不折不扣的游戏人，宅男，社恐，内向自卑小男孩...好了，那么这个游戏呢？是我尝试将GPT接入到游戏的一次尝试，截止到2023年5月7日19点07分，我把文本对话功能已经写好了，接下来的任务深入学习python，用来训练自己的ai，以便将GPT完全接入unity，最终的愿景呢？就是拥有一个有自主思想的超级ai，在游戏中扮演一名真正的npc，其行为不再是开发者指定好的，预设好的，而是会根据其与环境的交互，与玩家的对话，甚至是自己突发奇想做出的一些事情，不知道大家是怎么想的，反正我已经狠狠的期待住了。π
-      <!-- $v1.0.0$ -->
-    </div>
-    <script>
-      function DownBird() {
-        window.location.href = "./brid-xxyx.apk";
-      }
-      function DownZombie() {
-        window.location.href = "./PVZ_wudikuangmo1.4.apk";
-      }
-      let regex = /^(?<latter>abc)(\d+)$/;
-      let str = "abc23419849198";
-      let result = regex.exec(str);
-      console.log(result);
-    </script>
-  </body>
+      <head>
+            <meta charset="UTF-8" />
+            <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+            <meta
+                  name="viewport"
+                  content="width=device-width, initial-scale=1.0"
+            />
+            <title>Blog</title>
+        <script type="module" crossorigin src="/assets/index-da111333.js"></script>
+        <link rel="stylesheet" href="/assets/index-9dcb9abe.css">
+      </head>
+      <body>
+            <div id="app"></div>
+            
+      </body>
 </html>
