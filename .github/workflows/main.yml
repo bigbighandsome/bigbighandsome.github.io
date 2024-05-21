@@ -52,7 +52,7 @@ jobs:
       working-directory: ./server
       run: |
         npm install
-        node app.js
+        sudo node app.js
       env:
         NODE_ENV: production
 
