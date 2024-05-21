@@ -1,0 +1,51 @@
+name: Full Stack Deployment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    # 前端构建步骤
+    - name: Build Vue App
+      working-directory: ./client
+      run: |
+        npm install
+        npm run build
+      env:
+        NODE_ENV: production
+
+    # 缓存前端构建依赖
+    - name: Cache frontend dependencies
+      uses: actions/cache@v2
+      with:
+        path: client/node_modules
+        key: ${{ runner.os }}-frontend-${{ hashFiles('client/package-lock.json') }}
+
+    # 复制前端构建结果到后端的public目录
+    - name: Copy frontend build output to server
+      run: cp -r ./client/dist ./server/public
+
+    # 后端构建步骤
+    - name: Build and start Node.js server
+      working-directory: ./server
+      run: |
+        npm install
+        npm run build
+        npm start &
+      env:
+        NODE_ENV: production
+
+    # 缓存后端构建依赖
+    - name: Cache backend dependencies
+      uses: actions/cache@v2
+      with:
+        path: server/node_modules
+        key: ${{ runner.os }}-backend-${{ hashFiles('server/package-lock.json') }}
