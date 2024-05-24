@@ -47,7 +47,8 @@ const createIconWrapElement = (what) => {
 	config[what].forEach((a, i) => {
 		const content = config[what][i][Object.keys(config[what][i])[0]];
 		console.log(content);
-		const iconWrap = document.createElement('div');
+        const iconWrap = document.createElement('div');
+        content?.pic = "windowsIcon" + content?.pic
 		iconWrap.innerHTML = `<div class="iconWrap">
     <div class="iconWrapContent">
         <div class="bigIcon" style='display:${content[0] ? 'block' : 'none'}'>
