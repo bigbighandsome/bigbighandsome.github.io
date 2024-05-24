@@ -3,7 +3,7 @@ name: createConfig
 on:
   push:
     branches:
-      - xygodcyx-webpageDev
+      - main
 
 jobs:
   build-and-deploy:
@@ -29,7 +29,7 @@ jobs:
         NODE_ENV: production
     #部署到github
     - name: Deploy
-      uses: peaceiris/actions-xygodcyx-webpageDev@v4
+      uses: peaceiris/actions-main@v4
       with:
         github_token: ${{ secrets.XYGOD_GITHUB_TOKEN }}
         publish_dir: ./
