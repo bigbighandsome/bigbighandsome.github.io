@@ -28,7 +28,7 @@ app.get('/', (req, res) => {
 // 获取第一个可用的 IPv4 地址和端口号
 if (ipv4Addresses.length > 0) {
 	const { address } = ipv4Addresses[0];
-	const port = process.env.PORT || 3000; // 或者您使用的端口号
+	const port = process.env.PORT || 1314; // 或者您使用的端口号
 
 	const currentAddress = `http://${address}:${port}`;
 	app.listen(port, () => {
