@@ -53,4 +53,4 @@ if (!fs.existsSync(outputDir)) {
 const configPath = path.join('./config.json');
 fs.writeFileSync(configPath, JSON.stringify(fileList, null, 2));
 
-console.log('config.json 文件已生成在 out 目录下。');
+console.log('config.json 文件已生成');
