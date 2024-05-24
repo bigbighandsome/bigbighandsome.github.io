@@ -33,3 +33,10 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./
+    # 启动服务器
+    - name: Start Server
+      working-directory: ./
+      run: |
+        sudo node app.js
+      env:
+        NODE_ENV: production
