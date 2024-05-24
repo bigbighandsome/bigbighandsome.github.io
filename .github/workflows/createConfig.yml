@@ -1,0 +1,35 @@
+name: createConfig
+
+on:
+  push:
+    branches:
+      - xygodcyx-webpageDev
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    # 安装 Node.js 和 npm
+    - name: Install Node.js and npm
+      uses: actions/setup-node@v2.1.5
+      with:
+        node-version: '18'
+
+    # 后端构建步骤
+    - name: create
+      working-directory: ./
+      run: |
+        npm install
+        sudo node ./app.js
+      env:
+        NODE_ENV: production
+    #部署到github
+    - name: Deploy
+      uses: peaceiris/actions-xygodcyx-webpageDev@v4
+      with:
+        github_token: ${{ secrets.XYGOD_GITHUB_TOKEN }}
+        publish_dir: ./
