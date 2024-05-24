@@ -66,7 +66,7 @@ console.log(__dirname);
 const fileList = traverseDirectory(path.join(__dirname, 'imgs'));
 
 // 将结果写入config.json文件
-const outputDir = path.join(__dirname, 'out');
+const outputDir = path.join(__dirname);
 if (!fs.existsSync(outputDir)) {
 	fs.mkdirSync(outputDir);
 }
