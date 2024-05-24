@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>第七次作业代码</title>
+  </head>
+  <body>
+    <h1>验证码</h1>
+    <div>
+      写不上去。。源码在这里
+      <a href="https://github.com/xygodcyx/xygodcyx.github.io">验证码</a>
+    </div>
+    <h1>回文数</h1>
+    <div>
+      ?php function isPalindrome($str) { $len = strlen($str); $mid = floor($len
+      / 2); for ($i = 0; $i < $mid; $i++) { if ($str[$i] !== $str[$len - $i -
+      1]) { return false; } } return true; } var_dump(isPalindrome("abba"));
+    </div>
+    <h1>数组排序</h1>
+    <div>
+      <?php
+// 3、利用数组函数实现对歌唱比赛的评分，现有10个评委对某选手的评分为：，评分规则如下：
+// 	节目规定最高分不能大于100分，最低分不能小于0分。
+// 	去掉一个最高分，去掉一个最低分，求总分和平均分（保留一位小数）。
+function ArraySorting()
+{
+    $result = [85, 91, 71, 91, 100, 81, 61, 81, 99, 88];
+    $maxValue = 0;
+    $minValue = $result[0] ? $result[0] : 999999;
+    $sum = 0;
+    //判断成绩合理性以及取出最高分和最低分
+    for ($i = 0; $i < count($result); $i++) {
+        if ($result[$i] >
+      100 || $result[$i] < 0) return false; if ($result[$i] > $maxValue) {
+      $maxValue = $result[$i]; } else if ($result[$i] < $minValue) { $minValue =
+      $result[$i]; }; } for ($i = 0; $i < count($result); $i++) { if
+      ($result[$i] == $maxValue || $result[$i] == $minValue) {
+      array_splice($result, $i, 1); } } for ($i = 0; $i < count($result); $i++)
+      { $sum += $result[$i]; } $totalInfo = [ "max" => $maxValue, "min" =>
+      $minValue, "sum" => $sum, "average" => round($sum / count($result), 1) ];
+      return $totalInfo; } $totalInfo = ArraySorting(); ?>
+    </div>
+    <h1>二维数组理论</h1>
+    <div>
+      <?php
+// 、创建一个二维数组$arr2， '春季'=>
+      ('3月', '4月','5月'), '夏季' => ('6月', '7月', '8月'), // '秋季'=>('9月',
+      '10月', '11月'), '冬季'=>('12月', '1月', '2月')。 //
+      （1）输出$arr2的key为'秋季'的第2个元素。 // （2）输出$arr2的所有元素个数。
+      $arr2 = [ '春季' => array('3月', '4月', '5月'), '夏季' => array('6月',
+      '7月', '8月'), '秋季' => array('9月', '10月', '11月'), '冬季' =>
+      array('12月', '1月', '2月') ]; var_dump($arr2["秋季"][1]); $count = 0;
+      foreach ($arr2 as $key => $val) { $count += count($arr2[$key]); } echo
+      $count + count($arr2);
+    </div>
+    <h1>二维数组实践</h1>
+    <div>
+      写不上去,源码在这里
+      <a href="https://github.com/xygodcyx/xygodcyx.github.io">二维数组实践</a>
+    </div>
+  </body>
+</html>

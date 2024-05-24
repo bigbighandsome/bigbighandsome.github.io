@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XXYX版AI绘图网页！v:1.00</title>
+    <style>
+      /* 添加CSS样式以进行移动设备优化 */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      .wrap {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        text-align: center;
+        color: #333;
+        padding: 10px;
+      }
+
+      h1 {
+        font-size: 28px;
+        margin-top: 10px;
+      }
+
+      .view {
+        display: inline-block;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+        font-size: 16px;
+      }
+
+      button[id="submit"] {
+        background-color: #4caf50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      button[type="submit"]:hover {
+        background-color: #45a049;
+      }
+
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(minmax(450px, 1fr));
+        grid-gap: 10px;
+        margin-top: 20px;
+      }
+
+      .gallery img {
+        margin: auto;
+        max-width: 100%;
+        height: auto;
+      }
+
+      @media screen and (min-width: 768px) {
+        /* 添加响应式CSS样式以适应平板和电脑设备 */
+        .view {
+          width: 50%;
+        }
+
+        .gallery {
+          margin: auto;
+          max-width: 800px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>欢迎来到XXYX版AI绘图网页！</h1>
+      <div class="view">
+        <label for="search">
+          输入你的key:在
+          <a
+            style="font-size: 22px"
+            href="https://platform.openai.com/account/api-keys"
+            target="_blank">
+            api-keys
+          </a>
+          获取
+        </label>
+        <input type="text" id="key" placeholder="输入你的key..." />
+        <label for="search">输入要查找的图片的特征如：dog,man,woman</label>
+        <input
+          type="text"
+          id="search"
+          name="search"
+          placeholder="在这里输入搜索内容..." />
+        <button id="submit">搜索</button>
+      </div>
+      <p id="show">这里是图片展示区</p>
+      <div class="gallery">
+        <image
+          class="image"
+          src="https://via.placeholder.com/256x256"
+          alt="placeholder image" />
+        <image
+          class="image"
+          src="https://via.placeholder.com/256x256"
+          alt="placeholder image" />
+        <image
+          class="image"
+          src="https://via.placeholder.com/256x256"
+          alt="placeholder image" />
+        <image
+          class="image"
+          src="https://via.placeholder.com/256x256"
+          alt="placeholder image" />
+        <image
+          class="image"
+          src="https://via.placeholder.com/256x256"
+          alt="placeholder image" />
+      </div>
+    </div>
+    <script>
+      const search = document.getElementById("search");
+      const key = document.getElementById("key");
+      const submit = document.getElementById("submit");
+      const image = document.getElementsByClassName("image");
+      const show = document.getElementById("show");
+      let isLoading = false;
+      let isError = false;
+      let errMsg = "";
+      const resolution = "256x256";
+      const url = "https://api.openai.com/v1/images/generations";
+      setInterval(() => {
+        if (isLoading) {
+          show.innerHTML = "加载中...";
+        } else if (!isLoading && !isError) {
+          show.innerHTML = "这里是图片展示区";
+        }
+        if (isError) {
+          show.innerHTML = errMsg;
+        } else if (!isError && !isLoading) {
+          show.innerHTML = "这里是图片展示区";
+        }
+      }, 100);
+      submit.addEventListener("click", () => {
+        isError = false;
+        const apiKey = key.value;
+        isLoading = true;
+        const prompt = search.value;
+        const data = {
+          model: "image-alpha-001",
+          prompt: prompt,
+          num_images: image.length,
+          size: resolution,
+        };
+        fetch(url, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${apiKey}`,
+          },
+          body: JSON.stringify(data),
+        })
+          .then((response) => response.json())
+          .then((json) => {
+            console.log(json);
+            for (let index = 0; index < image.length; index++) {
+              const img = image[index];
+              const src = json.data[index].url;
+              img.src = src;
+            }
+            isLoading = false;
+          })
+          .catch((error) => {
+            isError = true;
+            errMsg = error.message;
+            console.log(error);
+          });
+      });
+    </script>
+  </body>
+</html>

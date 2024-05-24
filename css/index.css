@@ -1,0 +1,15 @@
+.wrap {
+  width: 100%;
+  height: 100vh;
+}
+.wrap .topbar {
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+  background-color: aqua;
+}
+.topbar .title {
+  font-size: 26px;
+  font-family: "得意黑 斜体";
+  text-align: center;
+}

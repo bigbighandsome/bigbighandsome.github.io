@@ -1,0 +1,46 @@
+@tailwind components;
+@tailwind utilities;
+body {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+}
+img {
+      max-width: 100%;
+}
+/* @import url(https://fonts.googleapis.com/css?family=Questrial);
+@import url(https://fonts.googleapis.com/css?family=Arvo); */
+
+@font-face {
+      font-family: "LeaVerou";
+      src: url(https://lea.verou.me/logo.otf);
+}
+@font-face {
+      font-family: "cute";
+      src: url("/cute.ttf");
+}
+* {
+      /* font: 100% Rockwell, Arvo, serif; */
+      font-family: "cute", Courier, monospace;
+}
+[v-cloak] {
+      display: none;
+}
+
+img {
+      margin: auto;
+      display: block;
+      /*由于源数据没有高度，导致懒加载无效,添加最小高度进行占位*/
+      min-height: 300px;
+}
+
+/*在加载完成时取消最小高度,避免拉伸*/
+img[lazy="loaded"] {
+      margin: auto;
+      min-height: auto;
+}
+img[lazy="error"] {
+      width: 20%;
+      min-height: 30px;
+      float: left;
+}
