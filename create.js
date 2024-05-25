@@ -41,7 +41,7 @@ function traverseDirectory(dir, rootDir) {
 }
 
 // 遍历当前目录
-const rootDir = __dirname;
+const rootDir = path.join(__dirname, 'imgs');
 const result = traverseDirectory(rootDir, rootDir);
 
 // 将结果写入config.json文件
