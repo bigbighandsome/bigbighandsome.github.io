@@ -23,7 +23,6 @@ jobs:
             - name: create
               working-directory: ./
               run: |
-                  npm install
                   sudo node ./create.js
               env:
                   NODE_ENV: production
