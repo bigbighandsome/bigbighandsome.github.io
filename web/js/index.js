@@ -32,6 +32,7 @@ function convertConfigToData(config) {
 					url: '#',
 					name: file.name,
 				};
+				console.log(fileData);
 				appData.push(fileData);
 			});
 
