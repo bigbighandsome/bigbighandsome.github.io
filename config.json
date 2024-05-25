@@ -1796,6 +1796,19 @@
       }
     }
   },
+  "Unity - XyGod": {
+    "Unity-XyGod": {
+      "FileTypeIcon": {
+        "_files": [
+          {
+            "path": "imgs/Unity - XyGod/Unity-XyGod/FileTypeIcon/unitypackage.ico",
+            "name": "unitypackage",
+            "type": "ico"
+          }
+        ]
+      }
+    }
+  },
   "folders": {
     "Fluent": {
       "_files": [
