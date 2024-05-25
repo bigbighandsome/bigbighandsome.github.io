@@ -2,55 +2,55 @@ const fs = require('fs');
 const path = require('path');
 
 // 函数用于遍历目录下的所有文件
-function traverseDirectory(dir, fileList = []) {
-	const files = fs.readdirSync(dir);
-	for (let i = 0; i < files.length; i++) {
-		/**
-		 * file
-		 * @type {string} file - file
-		 */
-		let file = files[i];
+function traverseDirectory(dir, rootDir) {
+	const companies = {};
 
-		const name = file.split('.')[0];
-		const filePath = path.join(dir, file);
-		const stat = fs.statSync(filePath);
+	// 获取目录下的所有文件和文件夹
+	const items = fs.readdirSync(dir);
 
-		if (stat.isDirectory()) {
-			// 如果是文件夹，递归遍历子文件夹
-			traverseDirectory(filePath, fileList);
+	for (const item of items) {
+		if (item === '.git' || item === 'web' || item.endsWith('.md')) {
+			// 如果是 .git 或者 web 目录，则跳过
+			continue;
+		}
+
+		const itemPath = path.join(dir, item);
+		const relativePath = path.relative(rootDir, itemPath);
+		const stats = fs.statSync(itemPath);
+
+		if (stats.isDirectory()) {
+			// 如果是文件夹，则递归遍历
+			const software = traverseDirectory(itemPath, rootDir);
+			companies[item] = software;
 		} else {
-			// 如果是文件，将相对路径和文件名存入对象中，并加入到数组中
-			const relativePath = path.relative(__dirname, filePath);
-			if (
-				relativePath.startsWith('.git') ||
-				relativePath.startsWith('.github') ||
-				relativePath.startsWith('asset') ||
-				relativePath.startsWith('windowsIcon') ||
-				relativePath.startsWith('css') ||
-				relativePath.startsWith('js') ||
-				relativePath === 'app.js'
-			) {
-				continue;
+			if (dir !== rootDir) {
+				// 如果是根目录下的单个文件，则跳过
+				if (!companies['_files']) {
+					companies['_files'] = [];
+				}
+				companies['_files'].push({
+					path: relativePath,
+					name: item.split('.')[0],
+					type: item.split('.')[1],
+				});
 			}
-			fileList.push({ path: relativePath, name: name });
 		}
 	}
 
-	return fileList;
+	return companies;
 }
-console.log(__dirname);
 
 // 遍历当前目录
-const fileList = traverseDirectory(path.join(__dirname, 'imgs'));
+const rootDir = __dirname;
+const result = traverseDirectory(rootDir, rootDir);
 
 // 将结果写入config.json文件
-const outputDir = path.join(__dirname);
+const outputDir = __dirname;
 if (!fs.existsSync(outputDir)) {
 	fs.mkdirSync(outputDir);
 }
 
-// const configPath = path.join(outputDir, 'config.json');
-const configPath = path.join('./config.json');
-fs.writeFileSync(configPath, JSON.stringify(fileList, null, 2));
+const configPath = path.join(outputDir, 'config.json');
+fs.writeFileSync(configPath, JSON.stringify(result, null, 2));
 
 console.log('config.json 文件已生成');
