@@ -139,7 +139,7 @@ const traverseDirectory = (dir, rootDir) => {
 };
 
 // 遍历当前目录
-const rootDir = path.join(__dirname, 'imgs');
+const rootDir = __dirname;
 let result = traverseDirectory(rootDir, rootDir);
 result = excludeDifferentExtensions(result);
 // 将结果写入config.json文件
