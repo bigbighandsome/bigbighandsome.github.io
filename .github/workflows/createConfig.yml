@@ -23,7 +23,7 @@ jobs:
             - name: create
               working-directory: ./
               run: |
-                  sudo node ./create.js
+                  sudo node ./app.js
               env:
                   NODE_ENV: production
             #部署到github
