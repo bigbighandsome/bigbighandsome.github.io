@@ -213,6 +213,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 let curLeftNavStatus = true;
 const toggleLeftNav = () => {
+	console.log('toggle');
 	curLeftNavStatus = !curLeftNavStatus;
 	curLeftNavStatus ? showLeftNav() : hideLeftNav();
 };
@@ -263,7 +264,7 @@ const doms = {
 	 * control
 	 * @type {HTMLDivElement} control - control
 	 */
-	control: document.querySelector('.control'),
+	control: document.querySelector('.leftNav .control'),
 	/**
 	 * mainHome
 	 * @type {HTMLLIElement} mainHome - mainHome
@@ -633,8 +634,8 @@ const showShowInfo = (infoData) => {
 		}
 		const infoItem = document.createElement('li');
 		infoItem.classList.add('infoItem');
-		infoItem.innerHTML = `<div class="what">${key}</div>
-                        <div class="info">${showInfoData[key]}</div>`;
+		infoItem.innerHTML = `<div class="what" title="${key}">${key}</div>
+                        <div class="info" title="${showInfoData[key]}">${showInfoData[key]}</div>`;
 		if (key === 'company' || key === 'app') {
 			addEventListenerInfoItemClickWillGo(
 				infoItem,
