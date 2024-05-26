@@ -346,23 +346,46 @@ doms.small.addEventListener('click', (e) => {
 doms.control.addEventListener('click', (e) => {
 	toggleLeftNav();
 });
+/**
+ * setCurStatus
+ * @param {HTMLElement} who - who
+ */
+const setCurStatus = (who) => {
+	[
+		doms.mainHome,
+		doms.folders,
+		doms.file,
+		doms.app,
+		doms.company,
+		doms.software,
+	].forEach((d) => {
+		if (who != d) d.classList.remove('cur');
+	});
+	who.classList.add('cur');
+};
 doms.mainHome.addEventListener('click', (e) => {
 	createHomePage();
+	setCurStatus(e.target);
 });
 doms.folders.addEventListener('click', (e) => {
 	createFoldersPage();
+	setCurStatus(e.target);
 });
 doms.file.addEventListener('click', (e) => {
 	createFilePage();
+	setCurStatus(e.target);
 });
 doms.app.addEventListener('click', (e) => {
 	createAppPage();
+	setCurStatus(e.target);
 });
 doms.company.addEventListener('click', (e) => {
 	createCompanyPage();
+	setCurStatus(e.target);
 });
 doms.software.addEventListener('click', (e) => {
 	createSoftwarePage();
+	setCurStatus(e.target);
 });
 doms.searchInput.addEventListener('focusin', (e) => {
 	inputHasFocus = true;
