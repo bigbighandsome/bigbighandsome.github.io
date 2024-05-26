@@ -4,7 +4,7 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "Adobe/Au/AppIcon/Au.png",
+            "path": "imgs/Adobe/Au/AppIcon/Au.png",
             "name": "Au",
             "type": "png"
           }
@@ -15,7 +15,7 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "Adobe/Ch/AppIcon/Ch.png",
+            "path": "imgs/Adobe/Ch/AppIcon/Ch.png",
             "name": "Ch",
             "type": "png"
           }
@@ -26,7 +26,7 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "Adobe/Fr/AppIcon/Fr.png",
+            "path": "imgs/Adobe/Fr/AppIcon/Fr.png",
             "name": "Fr",
             "type": "png"
           }
@@ -37,7 +37,7 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "Adobe/Ic/AppIcon/IC.png",
+            "path": "imgs/Adobe/Ic/AppIcon/IC.png",
             "name": "IC",
             "type": "png"
           }
@@ -48,7 +48,7 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "Adobe/Id/AppIcon/ID.png",
+            "path": "imgs/Adobe/Id/AppIcon/ID.png",
             "name": "ID",
             "type": "png"
           }
@@ -59,12 +59,12 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "Adobe/Illustrator/AppIcon/AI.png",
+            "path": "imgs/Adobe/Illustrator/AppIcon/AI.png",
             "name": "AI",
             "type": "png"
           },
           {
-            "path": "Adobe/Illustrator/AppIcon/Ai6128w.png",
+            "path": "imgs/Adobe/Illustrator/AppIcon/Ai6128w.png",
             "name": "Ai6128w",
             "type": "png"
           }
@@ -73,7 +73,7 @@
       "FileTypeIcon": {
         "_files": [
           {
-            "path": "Adobe/Illustrator/FileTypeIcon/ai.ico",
+            "path": "imgs/Adobe/Illustrator/FileTypeIcon/ai.ico",
             "name": "ai",
             "type": "ico"
           }
@@ -84,7 +84,7 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "Adobe/Lr/AppIcon/Lr.png",
+            "path": "imgs/Adobe/Lr/AppIcon/Lr.png",
             "name": "Lr",
             "type": "png"
           }
@@ -95,7 +95,7 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "Adobe/Photoshop/AppIcon/Ps4.ico",
+            "path": "imgs/Adobe/Photoshop/AppIcon/Ps4.ico",
             "name": "Ps4",
             "type": "ico"
           }
@@ -104,12 +104,12 @@
       "FileTypeIcon": {
         "_files": [
           {
-            "path": "Adobe/Photoshop/FileTypeIcon/psb.ico",
+            "path": "imgs/Adobe/Photoshop/FileTypeIcon/psb.ico",
             "name": "psb",
             "type": "ico"
           },
           {
-            "path": "Adobe/Photoshop/FileTypeIcon/psd.ico",
+            "path": "imgs/Adobe/Photoshop/FileTypeIcon/psd.ico",
             "name": "psd",
             "type": "ico"
           }
@@ -120,7 +120,7 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "Adobe/Pr/AppIcon/Pr.png",
+            "path": "imgs/Adobe/Pr/AppIcon/Pr.png",
             "name": "Pr",
             "type": "png"
           }
@@ -131,7 +131,7 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "Adobe/Pt/AppIcon/Pt.png",
+            "path": "imgs/Adobe/Pt/AppIcon/Pt.png",
             "name": "Pt",
             "type": "png"
           }
@@ -142,7 +142,7 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "Adobe/Sb/AppIcon/Sb.png",
+            "path": "imgs/Adobe/Sb/AppIcon/Sb.png",
             "name": "Sb",
             "type": "png"
           }
@@ -155,27 +155,27 @@
       "FileTypeIcon": {
         "_files": [
           {
-            "path": "Apple/Xcode/FileTypeIcon/Xcodearchive.png",
+            "path": "imgs/Apple/Xcode/FileTypeIcon/Xcodearchive.png",
             "name": "Xcodearchive",
             "type": "png"
           },
           {
-            "path": "Apple/Xcode/FileTypeIcon/Xcodworkspace.png",
+            "path": "imgs/Apple/Xcode/FileTypeIcon/Xcodworkspace.png",
             "name": "Xcodworkspace",
             "type": "png"
           },
           {
-            "path": "Apple/Xcode/FileTypeIcon/sdef.png",
+            "path": "imgs/Apple/Xcode/FileTypeIcon/sdef.png",
             "name": "sdef",
             "type": "png"
           },
           {
-            "path": "Apple/Xcode/FileTypeIcon/storyboard.png",
+            "path": "imgs/Apple/Xcode/FileTypeIcon/storyboard.png",
             "name": "storyboard",
             "type": "png"
           },
           {
-            "path": "Apple/Xcode/FileTypeIcon/xcodeproj.png",
+            "path": "imgs/Apple/Xcode/FileTypeIcon/xcodeproj.png",
             "name": "xcodeproj",
             "type": "png"
           }
@@ -186,12 +186,12 @@
       "FileTypeIcon": {
         "_files": [
           {
-            "path": "Apple/macOS/FileTypeIcon/dmg.ico",
+            "path": "imgs/Apple/macOS/FileTypeIcon/dmg.ico",
             "name": "dmg",
             "type": "ico"
           },
           {
-            "path": "Apple/macOS/FileTypeIcon/pkg.png",
+            "path": "imgs/Apple/macOS/FileTypeIcon/pkg.png",
             "name": "pkg",
             "type": "png"
           }
@@ -204,337 +204,337 @@
       "FileTypeIcon": {
         "_files": [
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/3Ds.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/3Ds.png",
             "name": "3Ds",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/ant.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/ant.png",
             "name": "ant",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/bip.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/bip.png",
             "name": "bip",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/bpr.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/bpr.png",
             "name": "bpr",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/bprx.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/bprx.png",
             "name": "bprx",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/cal.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/cal.png",
             "name": "cal",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/cam.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/cam.png",
             "name": "cam",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/cfx-1.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/cfx-1.png",
             "name": "cfx-1",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/cfx.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/cfx.png",
             "name": "cfx",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/chr.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/chr.png",
             "name": "chr",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/clp.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/clp.png",
             "name": "clp",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/clr.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/clr.png",
             "name": "clr",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/clrx.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/clrx.png",
             "name": "clrx",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/cpy.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/cpy.png",
             "name": "cpy",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/csm.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/csm.png",
             "name": "csm",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/cui.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/cui.png",
             "name": "cui",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/cuix.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/cuix.png",
             "name": "cuix",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/ds.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/ds.png",
             "name": "ds",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/dxf.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/dxf.png",
             "name": "dxf",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/eny.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/eny.png",
             "name": "eny",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/fgm-1.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/fgm-1.png",
             "name": "fgm-1",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/fgm.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/fgm.png",
             "name": "fgm",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/fig.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/fig.png",
             "name": "fig",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/ifl.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/ifl.png",
             "name": "ifl",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/kbd.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/kbd.png",
             "name": "kbd",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/kbdx.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/kbdx.png",
             "name": "kbdx",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/mat.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/mat.png",
             "name": "mat",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/max-1.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/max-1.png",
             "name": "max-1",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/max.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/max.png",
             "name": "max",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/maxc-1.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/maxc-1.png",
             "name": "maxc-1",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/maxc.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/maxc.png",
             "name": "maxc",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/maxt-1.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/maxt-1.png",
             "name": "maxt-1",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/maxt.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/maxt.png",
             "name": "maxt",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/mcg-1.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/mcg-1.png",
             "name": "mcg-1",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/mcg.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/mcg.png",
             "name": "mcg",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/mcr-1.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/mcr-1.png",
             "name": "mcr-1",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/mcr.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/mcr.png",
             "name": "mcr",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/mfe.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/mfe.png",
             "name": "mfe",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/mi.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/mi.png",
             "name": "mi",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/mix.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/mix.png",
             "name": "mix",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/mnm.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/mnm.png",
             "name": "mnm",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/mnu.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/mnu.png",
             "name": "mnu",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/mnux.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/mnux.png",
             "name": "mnux",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/moc.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/moc.png",
             "name": "moc",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/ms.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/ms.png",
             "name": "ms",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/mse.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/mse.png",
             "name": "mse",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/mus.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/mus.png",
             "name": "mus",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/musx.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/musx.png",
             "name": "musx",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/mxp.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/mxp.png",
             "name": "mxp",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/mzp.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/mzp.png",
             "name": "mzp",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/pc2.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/pc2.png",
             "name": "pc2",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/pfc.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/pfc.png",
             "name": "pfc",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/phy.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/phy.png",
             "name": "phy",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/pmap.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/pmap.png",
             "name": "pmap",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/prj.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/prj.png",
             "name": "prj",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/pse.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/pse.png",
             "name": "pse",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/qop.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/qop.png",
             "name": "qop",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/rcs.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/rcs.png",
             "name": "rcs",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/rg3.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/rg3.png",
             "name": "rg3",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/rps.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/rps.png",
             "name": "rps",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/shp.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/shp.png",
             "name": "shp",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/stat.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/stat.png",
             "name": "stat",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/stp.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/stp.png",
             "name": "stp",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/ui.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/ui.png",
             "name": "ui",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/vpx.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/vpx.png",
             "name": "vpx",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/xaf.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/xaf.png",
             "name": "xaf",
             "type": "png"
           },
           {
-            "path": "Autodesk/3Ds/FileTypeIcon/xmm.png",
+            "path": "imgs/Autodesk/3Ds/FileTypeIcon/xmm.png",
             "name": "xmm",
             "type": "png"
           }
@@ -545,12 +545,12 @@
       "FileTypeIcon": {
         "_files": [
           {
-            "path": "Autodesk/Alias/FileTypeIcon/Wire_2.png",
+            "path": "imgs/Autodesk/Alias/FileTypeIcon/Wire_2.png",
             "name": "Wire_2",
             "type": "png"
           },
           {
-            "path": "Autodesk/Alias/FileTypeIcon/wire_1.png",
+            "path": "imgs/Autodesk/Alias/FileTypeIcon/wire_1.png",
             "name": "wire_1",
             "type": "png"
           }
@@ -561,7 +561,7 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "Autodesk/AutoCAD/AppIcon/CAD.ico",
+            "path": "imgs/Autodesk/AutoCAD/AppIcon/CAD.ico",
             "name": "CAD",
             "type": "ico"
           }
@@ -570,52 +570,52 @@
       "FileTypeIcon": {
         "_files": [
           {
-            "path": "Autodesk/AutoCAD/FileTypeIcon/ARX.png",
+            "path": "imgs/Autodesk/AutoCAD/FileTypeIcon/ARX.png",
             "name": "ARX",
             "type": "png"
           },
           {
-            "path": "Autodesk/AutoCAD/FileTypeIcon/DBX.png",
+            "path": "imgs/Autodesk/AutoCAD/FileTypeIcon/DBX.png",
             "name": "DBX",
             "type": "png"
           },
           {
-            "path": "Autodesk/AutoCAD/FileTypeIcon/HDI.png",
+            "path": "imgs/Autodesk/AutoCAD/FileTypeIcon/HDI.png",
             "name": "HDI",
             "type": "png"
           },
           {
-            "path": "Autodesk/AutoCAD/FileTypeIcon/LSP.png",
+            "path": "imgs/Autodesk/AutoCAD/FileTypeIcon/LSP.png",
             "name": "LSP",
             "type": "png"
           },
           {
-            "path": "Autodesk/AutoCAD/FileTypeIcon/PC3.png",
+            "path": "imgs/Autodesk/AutoCAD/FileTypeIcon/PC3.png",
             "name": "PC3",
             "type": "png"
           },
           {
-            "path": "Autodesk/AutoCAD/FileTypeIcon/SHX.png",
+            "path": "imgs/Autodesk/AutoCAD/FileTypeIcon/SHX.png",
             "name": "SHX",
             "type": "png"
           },
           {
-            "path": "Autodesk/AutoCAD/FileTypeIcon/ctb.png",
+            "path": "imgs/Autodesk/AutoCAD/FileTypeIcon/ctb.png",
             "name": "ctb",
             "type": "png"
           },
           {
-            "path": "Autodesk/AutoCAD/FileTypeIcon/dgn.png",
+            "path": "imgs/Autodesk/AutoCAD/FileTypeIcon/dgn.png",
             "name": "dgn",
             "type": "png"
           },
           {
-            "path": "Autodesk/AutoCAD/FileTypeIcon/pmp.png",
+            "path": "imgs/Autodesk/AutoCAD/FileTypeIcon/pmp.png",
             "name": "pmp",
             "type": "png"
           },
           {
-            "path": "Autodesk/AutoCAD/FileTypeIcon/stb.png",
+            "path": "imgs/Autodesk/AutoCAD/FileTypeIcon/stb.png",
             "name": "stb",
             "type": "png"
           }
@@ -623,12 +623,12 @@
         "dwg": {
           "_files": [
             {
-              "path": "Autodesk/AutoCAD/FileTypeIcon/dwg/dwg.ico",
+              "path": "imgs/Autodesk/AutoCAD/FileTypeIcon/dwg/dwg.ico",
               "name": "dwg",
               "type": "ico"
             },
             {
-              "path": "Autodesk/AutoCAD/FileTypeIcon/dwg/dwg@0.5x.png",
+              "path": "imgs/Autodesk/AutoCAD/FileTypeIcon/dwg/dwg@0.5x.png",
               "name": "dwg@0",
               "type": "5x"
             }
@@ -637,12 +637,12 @@
         "dwgbak": {
           "_files": [
             {
-              "path": "Autodesk/AutoCAD/FileTypeIcon/dwgbak/dwgbak.ico",
+              "path": "imgs/Autodesk/AutoCAD/FileTypeIcon/dwgbak/dwgbak.ico",
               "name": "dwgbak",
               "type": "ico"
             },
             {
-              "path": "Autodesk/AutoCAD/FileTypeIcon/dwgbak/dwgbak@0.5x.png",
+              "path": "imgs/Autodesk/AutoCAD/FileTypeIcon/dwgbak/dwgbak@0.5x.png",
               "name": "dwgbak@0",
               "type": "5x"
             }
@@ -654,32 +654,32 @@
       "FileTypeIcon": {
         "_files": [
           {
-            "path": "Autodesk/CFD/FileTypeIcon/cfd-1.png",
+            "path": "imgs/Autodesk/CFD/FileTypeIcon/cfd-1.png",
             "name": "cfd-1",
             "type": "png"
           },
           {
-            "path": "Autodesk/CFD/FileTypeIcon/cfd.png",
+            "path": "imgs/Autodesk/CFD/FileTypeIcon/cfd.png",
             "name": "cfd",
             "type": "png"
           },
           {
-            "path": "Autodesk/CFD/FileTypeIcon/cfdpk.png",
+            "path": "imgs/Autodesk/CFD/FileTypeIcon/cfdpk.png",
             "name": "cfdpk",
             "type": "png"
           },
           {
-            "path": "Autodesk/CFD/FileTypeIcon/cfz.png",
+            "path": "imgs/Autodesk/CFD/FileTypeIcon/cfz.png",
             "name": "cfz",
             "type": "png"
           },
           {
-            "path": "Autodesk/CFD/FileTypeIcon/tpl.png",
+            "path": "imgs/Autodesk/CFD/FileTypeIcon/tpl.png",
             "name": "tpl",
             "type": "png"
           },
           {
-            "path": "Autodesk/CFD/FileTypeIcon/vtfx.png",
+            "path": "imgs/Autodesk/CFD/FileTypeIcon/vtfx.png",
             "name": "vtfx",
             "type": "png"
           }
@@ -690,12 +690,12 @@
       "FileTypeIcon": {
         "_files": [
           {
-            "path": "Autodesk/FromIt/FileTypeIcon/axm.png",
+            "path": "imgs/Autodesk/FromIt/FileTypeIcon/axm.png",
             "name": "axm",
             "type": "png"
           },
           {
-            "path": "Autodesk/FromIt/FileTypeIcon/axm_2.png",
+            "path": "imgs/Autodesk/FromIt/FileTypeIcon/axm_2.png",
             "name": "axm_2",
             "type": "png"
           }
@@ -706,12 +706,12 @@
       "FileTypeIcon": {
         "_files": [
           {
-            "path": "Autodesk/Fusion360/FileTypeIcon/f3d_1.png",
+            "path": "imgs/Autodesk/Fusion360/FileTypeIcon/f3d_1.png",
             "name": "f3d_1",
             "type": "png"
           },
           {
-            "path": "Autodesk/Fusion360/FileTypeIcon/f3d_2.png",
+            "path": "imgs/Autodesk/Fusion360/FileTypeIcon/f3d_2.png",
             "name": "f3d_2",
             "type": "png"
           }
@@ -722,22 +722,22 @@
       "FileTypeIcon": {
         "_files": [
           {
-            "path": "Autodesk/Inventor/FileTypeIcon/idw.png",
+            "path": "imgs/Autodesk/Inventor/FileTypeIcon/idw.png",
             "name": "idw",
             "type": "png"
           },
           {
-            "path": "Autodesk/Inventor/FileTypeIcon/ipn.png",
+            "path": "imgs/Autodesk/Inventor/FileTypeIcon/ipn.png",
             "name": "ipn",
             "type": "png"
           },
           {
-            "path": "Autodesk/Inventor/FileTypeIcon/ipt-1.png",
+            "path": "imgs/Autodesk/Inventor/FileTypeIcon/ipt-1.png",
             "name": "ipt-1",
             "type": "png"
           },
           {
-            "path": "Autodesk/Inventor/FileTypeIcon/ipt.png",
+            "path": "imgs/Autodesk/Inventor/FileTypeIcon/ipt.png",
             "name": "ipt",
             "type": "png"
           }
@@ -748,27 +748,27 @@
       "FileTypeIcon": {
         "_files": [
           {
-            "path": "Autodesk/Revit/FileTypeIcon/RFA.png",
+            "path": "imgs/Autodesk/Revit/FileTypeIcon/RFA.png",
             "name": "RFA",
             "type": "png"
           },
           {
-            "path": "Autodesk/Revit/FileTypeIcon/RFT.png",
+            "path": "imgs/Autodesk/Revit/FileTypeIcon/RFT.png",
             "name": "RFT",
             "type": "png"
           },
           {
-            "path": "Autodesk/Revit/FileTypeIcon/RTE.png",
+            "path": "imgs/Autodesk/Revit/FileTypeIcon/RTE.png",
             "name": "RTE",
             "type": "png"
           },
           {
-            "path": "Autodesk/Revit/FileTypeIcon/RVT.png",
+            "path": "imgs/Autodesk/Revit/FileTypeIcon/RVT.png",
             "name": "RVT",
             "type": "png"
           },
           {
-            "path": "Autodesk/Revit/FileTypeIcon/RVT_2.png",
+            "path": "imgs/Autodesk/Revit/FileTypeIcon/RVT_2.png",
             "name": "RVT_2",
             "type": "png"
           }
@@ -781,12 +781,12 @@
       "FileTypeIcon": {
         "_files": [
           {
-            "path": "Blender/Blender/FileTypeIcon/Blend1.ico",
+            "path": "imgs/Blender/Blender/FileTypeIcon/Blend1.ico",
             "name": "Blend1",
             "type": "ico"
           },
           {
-            "path": "Blender/Blender/FileTypeIcon/blend.ico",
+            "path": "imgs/Blender/Blender/FileTypeIcon/blend.ico",
             "name": "blend",
             "type": "ico"
           }
@@ -799,7 +799,7 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "Figma/Figma/AppIcon/figma.ico",
+            "path": "imgs/Figma/Figma/AppIcon/figma.ico",
             "name": "figma",
             "type": "ico"
           }
@@ -808,7 +808,7 @@
       "FileTypeIcon": {
         "_files": [
           {
-            "path": "Figma/Figma/FileTypeIcon/fig.ico",
+            "path": "imgs/Figma/Figma/FileTypeIcon/fig.ico",
             "name": "fig",
             "type": "ico"
           }
@@ -821,12 +821,12 @@
       "FileTypeIcon": {
         "_files": [
           {
-            "path": "Google/Android/FileTypeIcon/apk.ico",
+            "path": "imgs/Google/Android/FileTypeIcon/apk.ico",
             "name": "apk",
             "type": "ico"
           },
           {
-            "path": "Google/Android/FileTypeIcon/apk2.ico",
+            "path": "imgs/Google/Android/FileTypeIcon/apk2.ico",
             "name": "apk2",
             "type": "ico"
           }
@@ -839,7 +839,7 @@
       "FileTypeIcon": {
         "_files": [
           {
-            "path": "Houdini/Houdini/FileTypeIcon/houdini file type.ico",
+            "path": "imgs/Houdini/Houdini/FileTypeIcon/houdini file type.ico",
             "name": "houdini file type",
             "type": "ico"
           }
@@ -852,7 +852,7 @@
       "FileTypeIcon": {
         "_files": [
           {
-            "path": "Luxion/Keyshot/FileTypeIcon/Keyshot Package.ico",
+            "path": "imgs/Luxion/Keyshot/FileTypeIcon/Keyshot Package.ico",
             "name": "Keyshot Package",
             "type": "ico"
           }
@@ -865,32 +865,32 @@
       "FileTypeIcon": {
         "_files": [
           {
-            "path": "McNeel/Rhino/FileTypeIcon/3dm.ico",
+            "path": "imgs/McNeel/Rhino/FileTypeIcon/3dm.ico",
             "name": "3dm",
             "type": "ico"
           },
           {
-            "path": "McNeel/Rhino/FileTypeIcon/3dmbak.ico",
+            "path": "imgs/McNeel/Rhino/FileTypeIcon/3dmbak.ico",
             "name": "3dmbak",
             "type": "ico"
           },
           {
-            "path": "McNeel/Rhino/FileTypeIcon/gh.ico",
+            "path": "imgs/McNeel/Rhino/FileTypeIcon/gh.ico",
             "name": "gh",
             "type": "ico"
           },
           {
-            "path": "McNeel/Rhino/FileTypeIcon/gha.ico",
+            "path": "imgs/McNeel/Rhino/FileTypeIcon/gha.ico",
             "name": "gha",
             "type": "ico"
           },
           {
-            "path": "McNeel/Rhino/FileTypeIcon/ghi.origin.png",
+            "path": "imgs/McNeel/Rhino/FileTypeIcon/ghi.origin.png",
             "name": "ghi",
             "type": "origin"
           },
           {
-            "path": "McNeel/Rhino/FileTypeIcon/rhi.ico",
+            "path": "imgs/McNeel/Rhino/FileTypeIcon/rhi.ico",
             "name": "rhi",
             "type": "ico"
           }
@@ -903,12 +903,12 @@
       "FileTypeIcon": {
         "_files": [
           {
-            "path": "Microsoft/Visual Studio/FileTypeIcon/appxmanifast.ico",
+            "path": "imgs/Microsoft/Visual Studio/FileTypeIcon/appxmanifast.ico",
             "name": "appxmanifast",
             "type": "ico"
           },
           {
-            "path": "Microsoft/Visual Studio/FileTypeIcon/xaml.ico",
+            "path": "imgs/Microsoft/Visual Studio/FileTypeIcon/xaml.ico",
             "name": "xaml",
             "type": "ico"
           }
@@ -919,47 +919,47 @@
       "FileTypeIcon": {
         "_files": [
           {
-            "path": "Microsoft/Windows/FileTypeIcon/bat.ico",
+            "path": "imgs/Microsoft/Windows/FileTypeIcon/bat.ico",
             "name": "bat",
             "type": "ico"
           },
           {
-            "path": "Microsoft/Windows/FileTypeIcon/glsl.ico",
+            "path": "imgs/Microsoft/Windows/FileTypeIcon/glsl.ico",
             "name": "glsl",
             "type": "ico"
           },
           {
-            "path": "Microsoft/Windows/FileTypeIcon/hlsl.ico",
+            "path": "imgs/Microsoft/Windows/FileTypeIcon/hlsl.ico",
             "name": "hlsl",
             "type": "ico"
           },
           {
-            "path": "Microsoft/Windows/FileTypeIcon/html.ico",
+            "path": "imgs/Microsoft/Windows/FileTypeIcon/html.ico",
             "name": "html",
             "type": "ico"
           },
           {
-            "path": "Microsoft/Windows/FileTypeIcon/icc.png",
+            "path": "imgs/Microsoft/Windows/FileTypeIcon/icc.png",
             "name": "icc",
             "type": "png"
           },
           {
-            "path": "Microsoft/Windows/FileTypeIcon/icm.png",
+            "path": "imgs/Microsoft/Windows/FileTypeIcon/icm.png",
             "name": "icm",
             "type": "png"
           },
           {
-            "path": "Microsoft/Windows/FileTypeIcon/ini.ico",
+            "path": "imgs/Microsoft/Windows/FileTypeIcon/ini.ico",
             "name": "ini",
             "type": "ico"
           },
           {
-            "path": "Microsoft/Windows/FileTypeIcon/msstyle.ico",
+            "path": "imgs/Microsoft/Windows/FileTypeIcon/msstyle.ico",
             "name": "msstyle",
             "type": "ico"
           },
           {
-            "path": "Microsoft/Windows/FileTypeIcon/svg.ico",
+            "path": "imgs/Microsoft/Windows/FileTypeIcon/svg.ico",
             "name": "svg",
             "type": "ico"
           }
@@ -972,7 +972,7 @@
       "FileTypeIcon": {
         "_files": [
           {
-            "path": "QuickLook/QuickLook/FileTypeIcon/QLPlugin.ico",
+            "path": "imgs/QuickLook/QuickLook/FileTypeIcon/QLPlugin.ico",
             "name": "QLPlugin",
             "type": "ico"
           }
@@ -985,7 +985,7 @@
       "AppIcon": {
         "_files": [
           {
-            "path": "Tencent/QQ/AppIcon/tencent-qq.ico",
+            "path": "imgs/Tencent/QQ/AppIcon/tencent-qq.ico",
             "name": "tencent-qq",
             "type": "ico"
           }
@@ -998,7 +998,7 @@
       "FileTypeIcon": {
         "_files": [
           {
-            "path": "Unity/Unity/FileTypeIcon/unitypackage.ico",
+            "path": "imgs/Unity/Unity/FileTypeIcon/unitypackage.ico",
             "name": "unitypackage",
             "type": "ico"
           }
@@ -1010,52 +1010,52 @@
     "Fluent": {
       "_files": [
         {
-          "path": "folders/Fluent/Fluent Light.png",
+          "path": "imgs/folders/Fluent/Fluent Light.png",
           "name": "Fluent Light",
           "type": "png"
         },
         {
-          "path": "folders/Fluent/Fluent Light_Background.png",
+          "path": "imgs/folders/Fluent/Fluent Light_Background.png",
           "name": "Fluent Light_Background",
           "type": "png"
         },
         {
-          "path": "folders/Fluent/Fluent Light_Desktop.png",
+          "path": "imgs/folders/Fluent/Fluent Light_Desktop.png",
           "name": "Fluent Light_Desktop",
           "type": "png"
         },
         {
-          "path": "folders/Fluent/Fluent Light_Documents.png",
+          "path": "imgs/folders/Fluent/Fluent Light_Documents.png",
           "name": "Fluent Light_Documents",
           "type": "png"
         },
         {
-          "path": "folders/Fluent/Fluent Light_Download.png",
+          "path": "imgs/folders/Fluent/Fluent Light_Download.png",
           "name": "Fluent Light_Download",
           "type": "png"
         },
         {
-          "path": "folders/Fluent/Fluent Light_Links.png",
+          "path": "imgs/folders/Fluent/Fluent Light_Links.png",
           "name": "Fluent Light_Links",
           "type": "png"
         },
         {
-          "path": "folders/Fluent/Fluent Light_Music.png",
+          "path": "imgs/folders/Fluent/Fluent Light_Music.png",
           "name": "Fluent Light_Music",
           "type": "png"
         },
         {
-          "path": "folders/Fluent/Fluent Light_Pictures.png",
+          "path": "imgs/folders/Fluent/Fluent Light_Pictures.png",
           "name": "Fluent Light_Pictures",
           "type": "png"
         },
         {
-          "path": "folders/Fluent/Fluent Light_Users.png",
+          "path": "imgs/folders/Fluent/Fluent Light_Users.png",
           "name": "Fluent Light_Users",
           "type": "png"
         },
         {
-          "path": "folders/Fluent/Fluent Light_Videos.png",
+          "path": "imgs/folders/Fluent/Fluent Light_Videos.png",
           "name": "Fluent Light_Videos",
           "type": "png"
         }
@@ -1064,67 +1064,67 @@
     "Oringe": {
       "_files": [
         {
-          "path": "folders/Oringe/Oringe-1.png",
+          "path": "imgs/folders/Oringe/Oringe-1.png",
           "name": "Oringe-1",
           "type": "png"
         },
         {
-          "path": "folders/Oringe/Oringe.png",
+          "path": "imgs/folders/Oringe/Oringe.png",
           "name": "Oringe",
           "type": "png"
         },
         {
-          "path": "folders/Oringe/Oringe_Background.png",
+          "path": "imgs/folders/Oringe/Oringe_Background.png",
           "name": "Oringe_Background",
           "type": "png"
         },
         {
-          "path": "folders/Oringe/Oringe_Desktop.png",
+          "path": "imgs/folders/Oringe/Oringe_Desktop.png",
           "name": "Oringe_Desktop",
           "type": "png"
         },
         {
-          "path": "folders/Oringe/Oringe_Documents.png",
+          "path": "imgs/folders/Oringe/Oringe_Documents.png",
           "name": "Oringe_Documents",
           "type": "png"
         },
         {
-          "path": "folders/Oringe/Oringe_Download.png",
+          "path": "imgs/folders/Oringe/Oringe_Download.png",
           "name": "Oringe_Download",
           "type": "png"
         },
         {
-          "path": "folders/Oringe/Oringe_Links.png",
+          "path": "imgs/folders/Oringe/Oringe_Links.png",
           "name": "Oringe_Links",
           "type": "png"
         },
         {
-          "path": "folders/Oringe/Oringe_Music.png",
+          "path": "imgs/folders/Oringe/Oringe_Music.png",
           "name": "Oringe_Music",
           "type": "png"
         },
         {
-          "path": "folders/Oringe/Oringe_Pictures.png",
+          "path": "imgs/folders/Oringe/Oringe_Pictures.png",
           "name": "Oringe_Pictures",
           "type": "png"
         },
         {
-          "path": "folders/Oringe/Oringe_User.png",
+          "path": "imgs/folders/Oringe/Oringe_User.png",
           "name": "Oringe_User",
           "type": "png"
         },
         {
-          "path": "folders/Oringe/Oringe_Users.png",
+          "path": "imgs/folders/Oringe/Oringe_Users.png",
           "name": "Oringe_Users",
           "type": "png"
         },
         {
-          "path": "folders/Oringe/Oringe_Videos.png",
+          "path": "imgs/folders/Oringe/Oringe_Videos.png",
           "name": "Oringe_Videos",
           "type": "png"
         },
         {
-          "path": "folders/Oringe/Oringe_Windows.png",
+          "path": "imgs/folders/Oringe/Oringe_Windows.png",
           "name": "Oringe_Windows",
           "type": "png"
         }
@@ -1133,47 +1133,47 @@
     "Sunrise": {
       "_files": [
         {
-          "path": "folders/Sunrise/Fluent Light_Back.png",
+          "path": "imgs/folders/Sunrise/Fluent Light_Back.png",
           "name": "Fluent Light_Back",
           "type": "png"
         },
         {
-          "path": "folders/Sunrise/Fluent Light_Desktop.png",
+          "path": "imgs/folders/Sunrise/Fluent Light_Desktop.png",
           "name": "Fluent Light_Desktop",
           "type": "png"
         },
         {
-          "path": "folders/Sunrise/Fluent Light_Documents.png",
+          "path": "imgs/folders/Sunrise/Fluent Light_Documents.png",
           "name": "Fluent Light_Documents",
           "type": "png"
         },
         {
-          "path": "folders/Sunrise/Fluent Light_Folder.png",
+          "path": "imgs/folders/Sunrise/Fluent Light_Folder.png",
           "name": "Fluent Light_Folder",
           "type": "png"
         },
         {
-          "path": "folders/Sunrise/Fluent Light_Music.png",
+          "path": "imgs/folders/Sunrise/Fluent Light_Music.png",
           "name": "Fluent Light_Music",
           "type": "png"
         },
         {
-          "path": "folders/Sunrise/Fluent Light_Pictures.png",
+          "path": "imgs/folders/Sunrise/Fluent Light_Pictures.png",
           "name": "Fluent Light_Pictures",
           "type": "png"
         },
         {
-          "path": "folders/Sunrise/Fluent Light_User.png",
+          "path": "imgs/folders/Sunrise/Fluent Light_User.png",
           "name": "Fluent Light_User",
           "type": "png"
         },
         {
-          "path": "folders/Sunrise/Fluent Light_Users.png",
+          "path": "imgs/folders/Sunrise/Fluent Light_Users.png",
           "name": "Fluent Light_Users",
           "type": "png"
         },
         {
-          "path": "folders/Sunrise/Fluent Light_Windows.png",
+          "path": "imgs/folders/Sunrise/Fluent Light_Windows.png",
           "name": "Fluent Light_Windows",
           "type": "png"
         }
@@ -1182,77 +1182,77 @@
     "Windows Blue Dark": {
       "_files": [
         {
-          "path": "folders/Windows Blue Dark/Windows Blue Dark_Background.png",
+          "path": "imgs/folders/Windows Blue Dark/Windows Blue Dark_Background.png",
           "name": "Windows Blue Dark_Background",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Dark/Windows Blue Dark_Desktop.png",
+          "path": "imgs/folders/Windows Blue Dark/Windows Blue Dark_Desktop.png",
           "name": "Windows Blue Dark_Desktop",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Dark/Windows Blue Dark_Documents.png",
+          "path": "imgs/folders/Windows Blue Dark/Windows Blue Dark_Documents.png",
           "name": "Windows Blue Dark_Documents",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Dark/Windows Blue Dark_Download.png",
+          "path": "imgs/folders/Windows Blue Dark/Windows Blue Dark_Download.png",
           "name": "Windows Blue Dark_Download",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Dark/Windows Blue Dark_Favorites.png",
+          "path": "imgs/folders/Windows Blue Dark/Windows Blue Dark_Favorites.png",
           "name": "Windows Blue Dark_Favorites",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Dark/Windows Blue Dark_Games.png",
+          "path": "imgs/folders/Windows Blue Dark/Windows Blue Dark_Games.png",
           "name": "Windows Blue Dark_Games",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Dark/Windows Blue Dark_Links.png",
+          "path": "imgs/folders/Windows Blue Dark/Windows Blue Dark_Links.png",
           "name": "Windows Blue Dark_Links",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Dark/Windows Blue Dark_Music.png",
+          "path": "imgs/folders/Windows Blue Dark/Windows Blue Dark_Music.png",
           "name": "Windows Blue Dark_Music",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Dark/Windows Blue Dark_Pictures.png",
+          "path": "imgs/folders/Windows Blue Dark/Windows Blue Dark_Pictures.png",
           "name": "Windows Blue Dark_Pictures",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Dark/Windows Blue Dark_Program Files.png",
+          "path": "imgs/folders/Windows Blue Dark/Windows Blue Dark_Program Files.png",
           "name": "Windows Blue Dark_Program Files",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Dark/Windows Blue Dark_User.png",
+          "path": "imgs/folders/Windows Blue Dark/Windows Blue Dark_User.png",
           "name": "Windows Blue Dark_User",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Dark/Windows Blue Dark_Users.png",
+          "path": "imgs/folders/Windows Blue Dark/Windows Blue Dark_Users.png",
           "name": "Windows Blue Dark_Users",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Dark/Windows Blue Dark_Video.png",
+          "path": "imgs/folders/Windows Blue Dark/Windows Blue Dark_Video.png",
           "name": "Windows Blue Dark_Video",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Dark/Windows Blue Dark_Windows.png",
+          "path": "imgs/folders/Windows Blue Dark/Windows Blue Dark_Windows.png",
           "name": "Windows Blue Dark_Windows",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Dark/Windows Blue Dark_new.png",
+          "path": "imgs/folders/Windows Blue Dark/Windows Blue Dark_new.png",
           "name": "Windows Blue Dark_new",
           "type": "png"
         }
@@ -1261,67 +1261,67 @@
     "Windows Blue Light": {
       "_files": [
         {
-          "path": "folders/Windows Blue Light/Windows Blue Dark_Desktop.png",
+          "path": "imgs/folders/Windows Blue Light/Windows Blue Dark_Desktop.png",
           "name": "Windows Blue Dark_Desktop",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Light/Windows Blue Dark_Documents.png",
+          "path": "imgs/folders/Windows Blue Light/Windows Blue Dark_Documents.png",
           "name": "Windows Blue Dark_Documents",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Light/Windows Blue Dark_Music.png",
+          "path": "imgs/folders/Windows Blue Light/Windows Blue Dark_Music.png",
           "name": "Windows Blue Dark_Music",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Light/Windows Blue Dark_Pictures.png",
+          "path": "imgs/folders/Windows Blue Light/Windows Blue Dark_Pictures.png",
           "name": "Windows Blue Dark_Pictures",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Light/Windows Blue Dark_User.png",
+          "path": "imgs/folders/Windows Blue Light/Windows Blue Dark_User.png",
           "name": "Windows Blue Dark_User",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Light/Windows Blue Dark_Users.png",
+          "path": "imgs/folders/Windows Blue Light/Windows Blue Dark_Users.png",
           "name": "Windows Blue Dark_Users",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Light/Windows Blue Dark_Windows.png",
+          "path": "imgs/folders/Windows Blue Light/Windows Blue Dark_Windows.png",
           "name": "Windows Blue Dark_Windows",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Light/Windows Blue Light-1.png",
+          "path": "imgs/folders/Windows Blue Light/Windows Blue Light-1.png",
           "name": "Windows Blue Light-1",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Light/Windows Blue Light-1_Background.png",
+          "path": "imgs/folders/Windows Blue Light/Windows Blue Light-1_Background.png",
           "name": "Windows Blue Light-1_Background",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Light/Windows Blue Light-1_Download.png",
+          "path": "imgs/folders/Windows Blue Light/Windows Blue Light-1_Download.png",
           "name": "Windows Blue Light-1_Download",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Light/Windows Blue Light-1_Links.png",
+          "path": "imgs/folders/Windows Blue Light/Windows Blue Light-1_Links.png",
           "name": "Windows Blue Light-1_Links",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Light/Windows Blue Light-1_Videos.png",
+          "path": "imgs/folders/Windows Blue Light/Windows Blue Light-1_Videos.png",
           "name": "Windows Blue Light-1_Videos",
           "type": "png"
         },
         {
-          "path": "folders/Windows Blue Light/Windows Blue Light.png",
+          "path": "imgs/folders/Windows Blue Light/Windows Blue Light.png",
           "name": "Windows Blue Light",
           "type": "png"
         }
@@ -1330,62 +1330,62 @@
     "blue grey": {
       "_files": [
         {
-          "path": "folders/blue grey/blue grey.png",
+          "path": "imgs/folders/blue grey/blue grey.png",
           "name": "blue grey",
           "type": "png"
         },
         {
-          "path": "folders/blue grey/blue grey_Background.png",
+          "path": "imgs/folders/blue grey/blue grey_Background.png",
           "name": "blue grey_Background",
           "type": "png"
         },
         {
-          "path": "folders/blue grey/blue grey_Desktop.png",
+          "path": "imgs/folders/blue grey/blue grey_Desktop.png",
           "name": "blue grey_Desktop",
           "type": "png"
         },
         {
-          "path": "folders/blue grey/blue grey_Documents.png",
+          "path": "imgs/folders/blue grey/blue grey_Documents.png",
           "name": "blue grey_Documents",
           "type": "png"
         },
         {
-          "path": "folders/blue grey/blue grey_Download.png",
+          "path": "imgs/folders/blue grey/blue grey_Download.png",
           "name": "blue grey_Download",
           "type": "png"
         },
         {
-          "path": "folders/blue grey/blue grey_Links.png",
+          "path": "imgs/folders/blue grey/blue grey_Links.png",
           "name": "blue grey_Links",
           "type": "png"
         },
         {
-          "path": "folders/blue grey/blue grey_Music.png",
+          "path": "imgs/folders/blue grey/blue grey_Music.png",
           "name": "blue grey_Music",
           "type": "png"
         },
         {
-          "path": "folders/blue grey/blue grey_Pictures.png",
+          "path": "imgs/folders/blue grey/blue grey_Pictures.png",
           "name": "blue grey_Pictures",
           "type": "png"
         },
         {
-          "path": "folders/blue grey/blue grey_User.png",
+          "path": "imgs/folders/blue grey/blue grey_User.png",
           "name": "blue grey_User",
           "type": "png"
         },
         {
-          "path": "folders/blue grey/blue grey_Users.png",
+          "path": "imgs/folders/blue grey/blue grey_Users.png",
           "name": "blue grey_Users",
           "type": "png"
         },
         {
-          "path": "folders/blue grey/blue grey_Videos.png",
+          "path": "imgs/folders/blue grey/blue grey_Videos.png",
           "name": "blue grey_Videos",
           "type": "png"
         },
         {
-          "path": "folders/blue grey/blue grey_Windows.png",
+          "path": "imgs/folders/blue grey/blue grey_Windows.png",
           "name": "blue grey_Windows",
           "type": "png"
         }
@@ -1394,62 +1394,62 @@
     "bluepink": {
       "_files": [
         {
-          "path": "folders/bluepink/bluepink.png",
+          "path": "imgs/folders/bluepink/bluepink.png",
           "name": "bluepink",
           "type": "png"
         },
         {
-          "path": "folders/bluepink/bluepink_Background.png",
+          "path": "imgs/folders/bluepink/bluepink_Background.png",
           "name": "bluepink_Background",
           "type": "png"
         },
         {
-          "path": "folders/bluepink/bluepink_Desktop.png",
+          "path": "imgs/folders/bluepink/bluepink_Desktop.png",
           "name": "bluepink_Desktop",
           "type": "png"
         },
         {
-          "path": "folders/bluepink/bluepink_Documents.png",
+          "path": "imgs/folders/bluepink/bluepink_Documents.png",
           "name": "bluepink_Documents",
           "type": "png"
         },
         {
-          "path": "folders/bluepink/bluepink_Download.png",
+          "path": "imgs/folders/bluepink/bluepink_Download.png",
           "name": "bluepink_Download",
           "type": "png"
         },
         {
-          "path": "folders/bluepink/bluepink_Links.png",
+          "path": "imgs/folders/bluepink/bluepink_Links.png",
           "name": "bluepink_Links",
           "type": "png"
         },
         {
-          "path": "folders/bluepink/bluepink_Music.png",
+          "path": "imgs/folders/bluepink/bluepink_Music.png",
           "name": "bluepink_Music",
           "type": "png"
         },
         {
-          "path": "folders/bluepink/bluepink_Pictures.png",
+          "path": "imgs/folders/bluepink/bluepink_Pictures.png",
           "name": "bluepink_Pictures",
           "type": "png"
         },
         {
-          "path": "folders/bluepink/bluepink_User.png",
+          "path": "imgs/folders/bluepink/bluepink_User.png",
           "name": "bluepink_User",
           "type": "png"
         },
         {
-          "path": "folders/bluepink/bluepink_Users.png",
+          "path": "imgs/folders/bluepink/bluepink_Users.png",
           "name": "bluepink_Users",
           "type": "png"
         },
         {
-          "path": "folders/bluepink/bluepink_Videos.png",
+          "path": "imgs/folders/bluepink/bluepink_Videos.png",
           "name": "bluepink_Videos",
           "type": "png"
         },
         {
-          "path": "folders/bluepink/bluepink_Windows.png",
+          "path": "imgs/folders/bluepink/bluepink_Windows.png",
           "name": "bluepink_Windows",
           "type": "png"
         }
@@ -1458,57 +1458,57 @@
     "cyan": {
       "_files": [
         {
-          "path": "folders/cyan/cyan green_Background.png",
+          "path": "imgs/folders/cyan/cyan green_Background.png",
           "name": "cyan green_Background",
           "type": "png"
         },
         {
-          "path": "folders/cyan/cyan green_Desktop.png",
+          "path": "imgs/folders/cyan/cyan green_Desktop.png",
           "name": "cyan green_Desktop",
           "type": "png"
         },
         {
-          "path": "folders/cyan/cyan green_Documents.png",
+          "path": "imgs/folders/cyan/cyan green_Documents.png",
           "name": "cyan green_Documents",
           "type": "png"
         },
         {
-          "path": "folders/cyan/cyan green_Download.png",
+          "path": "imgs/folders/cyan/cyan green_Download.png",
           "name": "cyan green_Download",
           "type": "png"
         },
         {
-          "path": "folders/cyan/cyan green_Links.png",
+          "path": "imgs/folders/cyan/cyan green_Links.png",
           "name": "cyan green_Links",
           "type": "png"
         },
         {
-          "path": "folders/cyan/cyan green_Music.png",
+          "path": "imgs/folders/cyan/cyan green_Music.png",
           "name": "cyan green_Music",
           "type": "png"
         },
         {
-          "path": "folders/cyan/cyan green_Pictures.png",
+          "path": "imgs/folders/cyan/cyan green_Pictures.png",
           "name": "cyan green_Pictures",
           "type": "png"
         },
         {
-          "path": "folders/cyan/cyan green_User.png",
+          "path": "imgs/folders/cyan/cyan green_User.png",
           "name": "cyan green_User",
           "type": "png"
         },
         {
-          "path": "folders/cyan/cyan green_Users.png",
+          "path": "imgs/folders/cyan/cyan green_Users.png",
           "name": "cyan green_Users",
           "type": "png"
         },
         {
-          "path": "folders/cyan/cyan green_Videos.png",
+          "path": "imgs/folders/cyan/cyan green_Videos.png",
           "name": "cyan green_Videos",
           "type": "png"
         },
         {
-          "path": "folders/cyan/cyan green_Windows.png",
+          "path": "imgs/folders/cyan/cyan green_Windows.png",
           "name": "cyan green_Windows",
           "type": "png"
         }
@@ -1517,62 +1517,62 @@
     "cyan blue": {
       "_files": [
         {
-          "path": "folders/cyan blue/cyan blue.png",
+          "path": "imgs/folders/cyan blue/cyan blue.png",
           "name": "cyan blue",
           "type": "png"
         },
         {
-          "path": "folders/cyan blue/cyan blue_Background.png",
+          "path": "imgs/folders/cyan blue/cyan blue_Background.png",
           "name": "cyan blue_Background",
           "type": "png"
         },
         {
-          "path": "folders/cyan blue/cyan blue_Desktop.png",
+          "path": "imgs/folders/cyan blue/cyan blue_Desktop.png",
           "name": "cyan blue_Desktop",
           "type": "png"
         },
         {
-          "path": "folders/cyan blue/cyan blue_Documents.png",
+          "path": "imgs/folders/cyan blue/cyan blue_Documents.png",
           "name": "cyan blue_Documents",
           "type": "png"
         },
         {
-          "path": "folders/cyan blue/cyan blue_Download.png",
+          "path": "imgs/folders/cyan blue/cyan blue_Download.png",
           "name": "cyan blue_Download",
           "type": "png"
         },
         {
-          "path": "folders/cyan blue/cyan blue_Links.png",
+          "path": "imgs/folders/cyan blue/cyan blue_Links.png",
           "name": "cyan blue_Links",
           "type": "png"
         },
         {
-          "path": "folders/cyan blue/cyan blue_Music.png",
+          "path": "imgs/folders/cyan blue/cyan blue_Music.png",
           "name": "cyan blue_Music",
           "type": "png"
         },
         {
-          "path": "folders/cyan blue/cyan blue_Pictures.png",
+          "path": "imgs/folders/cyan blue/cyan blue_Pictures.png",
           "name": "cyan blue_Pictures",
           "type": "png"
         },
         {
-          "path": "folders/cyan blue/cyan blue_User_Windows.png",
+          "path": "imgs/folders/cyan blue/cyan blue_User_Windows.png",
           "name": "cyan blue_User_Windows",
           "type": "png"
         },
         {
-          "path": "folders/cyan blue/cyan blue_Users.png",
+          "path": "imgs/folders/cyan blue/cyan blue_Users.png",
           "name": "cyan blue_Users",
           "type": "png"
         },
         {
-          "path": "folders/cyan blue/cyan blue_Videos.png",
+          "path": "imgs/folders/cyan blue/cyan blue_Videos.png",
           "name": "cyan blue_Videos",
           "type": "png"
         },
         {
-          "path": "folders/cyan blue/cyan blue_Windows.png",
+          "path": "imgs/folders/cyan blue/cyan blue_Windows.png",
           "name": "cyan blue_Windows",
           "type": "png"
         }
@@ -1581,67 +1581,67 @@
     "cyan green": {
       "_files": [
         {
-          "path": "folders/cyan green/cyan green.png",
+          "path": "imgs/folders/cyan green/cyan green.png",
           "name": "cyan green",
           "type": "png"
         },
         {
-          "path": "folders/cyan green/cyan.png",
+          "path": "imgs/folders/cyan green/cyan.png",
           "name": "cyan",
           "type": "png"
         },
         {
-          "path": "folders/cyan green/cyan_Background.png",
+          "path": "imgs/folders/cyan green/cyan_Background.png",
           "name": "cyan_Background",
           "type": "png"
         },
         {
-          "path": "folders/cyan green/cyan_Desktop.png",
+          "path": "imgs/folders/cyan green/cyan_Desktop.png",
           "name": "cyan_Desktop",
           "type": "png"
         },
         {
-          "path": "folders/cyan green/cyan_Documents.png",
+          "path": "imgs/folders/cyan green/cyan_Documents.png",
           "name": "cyan_Documents",
           "type": "png"
         },
         {
-          "path": "folders/cyan green/cyan_Download.png",
+          "path": "imgs/folders/cyan green/cyan_Download.png",
           "name": "cyan_Download",
           "type": "png"
         },
         {
-          "path": "folders/cyan green/cyan_Links.png",
+          "path": "imgs/folders/cyan green/cyan_Links.png",
           "name": "cyan_Links",
           "type": "png"
         },
         {
-          "path": "folders/cyan green/cyan_Music.png",
+          "path": "imgs/folders/cyan green/cyan_Music.png",
           "name": "cyan_Music",
           "type": "png"
         },
         {
-          "path": "folders/cyan green/cyan_Pictures.png",
+          "path": "imgs/folders/cyan green/cyan_Pictures.png",
           "name": "cyan_Pictures",
           "type": "png"
         },
         {
-          "path": "folders/cyan green/cyan_User.png",
+          "path": "imgs/folders/cyan green/cyan_User.png",
           "name": "cyan_User",
           "type": "png"
         },
         {
-          "path": "folders/cyan green/cyan_Users.png",
+          "path": "imgs/folders/cyan green/cyan_Users.png",
           "name": "cyan_Users",
           "type": "png"
         },
         {
-          "path": "folders/cyan green/cyan_Videos.png",
+          "path": "imgs/folders/cyan green/cyan_Videos.png",
           "name": "cyan_Videos",
           "type": "png"
         },
         {
-          "path": "folders/cyan green/cyan_Windows.png",
+          "path": "imgs/folders/cyan green/cyan_Windows.png",
           "name": "cyan_Windows",
           "type": "png"
         }
@@ -1650,62 +1650,62 @@
     "green": {
       "_files": [
         {
-          "path": "folders/green/green.png",
+          "path": "imgs/folders/green/green.png",
           "name": "green",
           "type": "png"
         },
         {
-          "path": "folders/green/green_Background.png",
+          "path": "imgs/folders/green/green_Background.png",
           "name": "green_Background",
           "type": "png"
         },
         {
-          "path": "folders/green/green_Desktop.png",
+          "path": "imgs/folders/green/green_Desktop.png",
           "name": "green_Desktop",
           "type": "png"
         },
         {
-          "path": "folders/green/green_Documents.png",
+          "path": "imgs/folders/green/green_Documents.png",
           "name": "green_Documents",
           "type": "png"
         },
         {
-          "path": "folders/green/green_Download.png",
+          "path": "imgs/folders/green/green_Download.png",
           "name": "green_Download",
           "type": "png"
         },
         {
-          "path": "folders/green/green_Links.png",
+          "path": "imgs/folders/green/green_Links.png",
           "name": "green_Links",
           "type": "png"
         },
         {
-          "path": "folders/green/green_Music.png",
+          "path": "imgs/folders/green/green_Music.png",
           "name": "green_Music",
           "type": "png"
         },
         {
-          "path": "folders/green/green_Pictures.png",
+          "path": "imgs/folders/green/green_Pictures.png",
           "name": "green_Pictures",
           "type": "png"
         },
         {
-          "path": "folders/green/green_User.png",
+          "path": "imgs/folders/green/green_User.png",
           "name": "green_User",
           "type": "png"
         },
         {
-          "path": "folders/green/green_Users.png",
+          "path": "imgs/folders/green/green_Users.png",
           "name": "green_Users",
           "type": "png"
         },
         {
-          "path": "folders/green/green_Videos.png",
+          "path": "imgs/folders/green/green_Videos.png",
           "name": "green_Videos",
           "type": "png"
         },
         {
-          "path": "folders/green/green_Windows.png",
+          "path": "imgs/folders/green/green_Windows.png",
           "name": "green_Windows",
           "type": "png"
         }
@@ -1714,62 +1714,62 @@
     "green grey": {
       "_files": [
         {
-          "path": "folders/green grey/green grey.png",
+          "path": "imgs/folders/green grey/green grey.png",
           "name": "green grey",
           "type": "png"
         },
         {
-          "path": "folders/green grey/green grey_Background.png",
+          "path": "imgs/folders/green grey/green grey_Background.png",
           "name": "green grey_Background",
           "type": "png"
         },
         {
-          "path": "folders/green grey/green grey_Desktop.png",
+          "path": "imgs/folders/green grey/green grey_Desktop.png",
           "name": "green grey_Desktop",
           "type": "png"
         },
         {
-          "path": "folders/green grey/green grey_Documents.png",
+          "path": "imgs/folders/green grey/green grey_Documents.png",
           "name": "green grey_Documents",
           "type": "png"
         },
         {
-          "path": "folders/green grey/green grey_Download.png",
+          "path": "imgs/folders/green grey/green grey_Download.png",
           "name": "green grey_Download",
           "type": "png"
         },
         {
-          "path": "folders/green grey/green grey_Links.png",
+          "path": "imgs/folders/green grey/green grey_Links.png",
           "name": "green grey_Links",
           "type": "png"
         },
         {
-          "path": "folders/green grey/green grey_Music.png",
+          "path": "imgs/folders/green grey/green grey_Music.png",
           "name": "green grey_Music",
           "type": "png"
         },
         {
-          "path": "folders/green grey/green grey_Pictures.png",
+          "path": "imgs/folders/green grey/green grey_Pictures.png",
           "name": "green grey_Pictures",
           "type": "png"
         },
         {
-          "path": "folders/green grey/green grey_User.png",
+          "path": "imgs/folders/green grey/green grey_User.png",
           "name": "green grey_User",
           "type": "png"
         },
         {
-          "path": "folders/green grey/green grey_Users.png",
+          "path": "imgs/folders/green grey/green grey_Users.png",
           "name": "green grey_Users",
           "type": "png"
         },
         {
-          "path": "folders/green grey/green grey_Videos.png",
+          "path": "imgs/folders/green grey/green grey_Videos.png",
           "name": "green grey_Videos",
           "type": "png"
         },
         {
-          "path": "folders/green grey/green grey_Windows.png",
+          "path": "imgs/folders/green grey/green grey_Windows.png",
           "name": "green grey_Windows",
           "type": "png"
         }
@@ -1778,7 +1778,7 @@
     "grey": {
       "_files": [
         {
-          "path": "folders/grey/ballance.ico",
+          "path": "imgs/folders/grey/ballance.ico",
           "name": "ballance",
           "type": "ico"
         }
@@ -1787,52 +1787,52 @@
     "pink": {
       "_files": [
         {
-          "path": "folders/pink/pink_Background.png",
+          "path": "imgs/folders/pink/pink_Background.png",
           "name": "pink_Background",
           "type": "png"
         },
         {
-          "path": "folders/pink/pink_Desktop.png",
+          "path": "imgs/folders/pink/pink_Desktop.png",
           "name": "pink_Desktop",
           "type": "png"
         },
         {
-          "path": "folders/pink/pink_Download.png",
+          "path": "imgs/folders/pink/pink_Download.png",
           "name": "pink_Download",
           "type": "png"
         },
         {
-          "path": "folders/pink/pink_Links.png",
+          "path": "imgs/folders/pink/pink_Links.png",
           "name": "pink_Links",
           "type": "png"
         },
         {
-          "path": "folders/pink/pink_Music.png",
+          "path": "imgs/folders/pink/pink_Music.png",
           "name": "pink_Music",
           "type": "png"
         },
         {
-          "path": "folders/pink/pink_Pictures.png",
+          "path": "imgs/folders/pink/pink_Pictures.png",
           "name": "pink_Pictures",
           "type": "png"
         },
         {
-          "path": "folders/pink/pink_User.png",
+          "path": "imgs/folders/pink/pink_User.png",
           "name": "pink_User",
           "type": "png"
         },
         {
-          "path": "folders/pink/pink_Users.png",
+          "path": "imgs/folders/pink/pink_Users.png",
           "name": "pink_Users",
           "type": "png"
         },
         {
-          "path": "folders/pink/pink_Videos.png",
+          "path": "imgs/folders/pink/pink_Videos.png",
           "name": "pink_Videos",
           "type": "png"
         },
         {
-          "path": "folders/pink/pink_Windows.png",
+          "path": "imgs/folders/pink/pink_Windows.png",
           "name": "pink_Windows",
           "type": "png"
         }
@@ -1841,62 +1841,62 @@
     "purpose": {
       "_files": [
         {
-          "path": "folders/purpose/purpose.png",
+          "path": "imgs/folders/purpose/purpose.png",
           "name": "purpose",
           "type": "png"
         },
         {
-          "path": "folders/purpose/purpose_Background.png",
+          "path": "imgs/folders/purpose/purpose_Background.png",
           "name": "purpose_Background",
           "type": "png"
         },
         {
-          "path": "folders/purpose/purpose_Desktop.png",
+          "path": "imgs/folders/purpose/purpose_Desktop.png",
           "name": "purpose_Desktop",
           "type": "png"
         },
         {
-          "path": "folders/purpose/purpose_Documents.png",
+          "path": "imgs/folders/purpose/purpose_Documents.png",
           "name": "purpose_Documents",
           "type": "png"
         },
         {
-          "path": "folders/purpose/purpose_Download.png",
+          "path": "imgs/folders/purpose/purpose_Download.png",
           "name": "purpose_Download",
           "type": "png"
         },
         {
-          "path": "folders/purpose/purpose_Links.png",
+          "path": "imgs/folders/purpose/purpose_Links.png",
           "name": "purpose_Links",
           "type": "png"
         },
         {
-          "path": "folders/purpose/purpose_Music.png",
+          "path": "imgs/folders/purpose/purpose_Music.png",
           "name": "purpose_Music",
           "type": "png"
         },
         {
-          "path": "folders/purpose/purpose_Pictures.png",
+          "path": "imgs/folders/purpose/purpose_Pictures.png",
           "name": "purpose_Pictures",
           "type": "png"
         },
         {
-          "path": "folders/purpose/purpose_User.png",
+          "path": "imgs/folders/purpose/purpose_User.png",
           "name": "purpose_User",
           "type": "png"
         },
         {
-          "path": "folders/purpose/purpose_Users.png",
+          "path": "imgs/folders/purpose/purpose_Users.png",
           "name": "purpose_Users",
           "type": "png"
         },
         {
-          "path": "folders/purpose/purpose_Videos.png",
+          "path": "imgs/folders/purpose/purpose_Videos.png",
           "name": "purpose_Videos",
           "type": "png"
         },
         {
-          "path": "folders/purpose/purpose_Windows.png",
+          "path": "imgs/folders/purpose/purpose_Windows.png",
           "name": "purpose_Windows",
           "type": "png"
         }
@@ -1905,62 +1905,62 @@
     "purpose red": {
       "_files": [
         {
-          "path": "folders/purpose red/purpose red.png",
+          "path": "imgs/folders/purpose red/purpose red.png",
           "name": "purpose red",
           "type": "png"
         },
         {
-          "path": "folders/purpose red/purpose red_Background.png",
+          "path": "imgs/folders/purpose red/purpose red_Background.png",
           "name": "purpose red_Background",
           "type": "png"
         },
         {
-          "path": "folders/purpose red/purpose red_Desktop.png",
+          "path": "imgs/folders/purpose red/purpose red_Desktop.png",
           "name": "purpose red_Desktop",
           "type": "png"
         },
         {
-          "path": "folders/purpose red/purpose red_Documents.png",
+          "path": "imgs/folders/purpose red/purpose red_Documents.png",
           "name": "purpose red_Documents",
           "type": "png"
         },
         {
-          "path": "folders/purpose red/purpose red_Download.png",
+          "path": "imgs/folders/purpose red/purpose red_Download.png",
           "name": "purpose red_Download",
           "type": "png"
         },
         {
-          "path": "folders/purpose red/purpose red_Links.png",
+          "path": "imgs/folders/purpose red/purpose red_Links.png",
           "name": "purpose red_Links",
           "type": "png"
         },
         {
-          "path": "folders/purpose red/purpose red_Music.png",
+          "path": "imgs/folders/purpose red/purpose red_Music.png",
           "name": "purpose red_Music",
           "type": "png"
         },
         {
-          "path": "folders/purpose red/purpose red_Pictures.png",
+          "path": "imgs/folders/purpose red/purpose red_Pictures.png",
           "name": "purpose red_Pictures",
           "type": "png"
         },
         {
-          "path": "folders/purpose red/purpose red_User.png",
+          "path": "imgs/folders/purpose red/purpose red_User.png",
           "name": "purpose red_User",
           "type": "png"
         },
         {
-          "path": "folders/purpose red/purpose red_Users.png",
+          "path": "imgs/folders/purpose red/purpose red_Users.png",
           "name": "purpose red_Users",
           "type": "png"
         },
         {
-          "path": "folders/purpose red/purpose red_Videos.png",
+          "path": "imgs/folders/purpose red/purpose red_Videos.png",
           "name": "purpose red_Videos",
           "type": "png"
         },
         {
-          "path": "folders/purpose red/purpose red_Windows.png",
+          "path": "imgs/folders/purpose red/purpose red_Windows.png",
           "name": "purpose red_Windows",
           "type": "png"
         }
@@ -1969,62 +1969,62 @@
     "red yellow": {
       "_files": [
         {
-          "path": "folders/red yellow/red yellow grey.png",
+          "path": "imgs/folders/red yellow/red yellow grey.png",
           "name": "red yellow grey",
           "type": "png"
         },
         {
-          "path": "folders/red yellow/red yellow grey_Background.png",
+          "path": "imgs/folders/red yellow/red yellow grey_Background.png",
           "name": "red yellow grey_Background",
           "type": "png"
         },
         {
-          "path": "folders/red yellow/red yellow grey_Desktop.png",
+          "path": "imgs/folders/red yellow/red yellow grey_Desktop.png",
           "name": "red yellow grey_Desktop",
           "type": "png"
         },
         {
-          "path": "folders/red yellow/red yellow grey_Documents.png",
+          "path": "imgs/folders/red yellow/red yellow grey_Documents.png",
           "name": "red yellow grey_Documents",
           "type": "png"
         },
         {
-          "path": "folders/red yellow/red yellow grey_Download.png",
+          "path": "imgs/folders/red yellow/red yellow grey_Download.png",
           "name": "red yellow grey_Download",
           "type": "png"
         },
         {
-          "path": "folders/red yellow/red yellow grey_Links.png",
+          "path": "imgs/folders/red yellow/red yellow grey_Links.png",
           "name": "red yellow grey_Links",
           "type": "png"
         },
         {
-          "path": "folders/red yellow/red yellow grey_Music.png",
+          "path": "imgs/folders/red yellow/red yellow grey_Music.png",
           "name": "red yellow grey_Music",
           "type": "png"
         },
         {
-          "path": "folders/red yellow/red yellow grey_Pictures.png",
+          "path": "imgs/folders/red yellow/red yellow grey_Pictures.png",
           "name": "red yellow grey_Pictures",
           "type": "png"
         },
         {
-          "path": "folders/red yellow/red yellow grey_User.png",
+          "path": "imgs/folders/red yellow/red yellow grey_User.png",
           "name": "red yellow grey_User",
           "type": "png"
         },
         {
-          "path": "folders/red yellow/red yellow grey_Users.png",
+          "path": "imgs/folders/red yellow/red yellow grey_Users.png",
           "name": "red yellow grey_Users",
           "type": "png"
         },
         {
-          "path": "folders/red yellow/red yellow grey_Videos.png",
+          "path": "imgs/folders/red yellow/red yellow grey_Videos.png",
           "name": "red yellow grey_Videos",
           "type": "png"
         },
         {
-          "path": "folders/red yellow/red yellow grey_Windows.png",
+          "path": "imgs/folders/red yellow/red yellow grey_Windows.png",
           "name": "red yellow grey_Windows",
           "type": "png"
         }
@@ -2033,62 +2033,62 @@
     "yellow grey": {
       "_files": [
         {
-          "path": "folders/yellow grey/yellow grey.png",
+          "path": "imgs/folders/yellow grey/yellow grey.png",
           "name": "yellow grey",
           "type": "png"
         },
         {
-          "path": "folders/yellow grey/yellow grey_Background.png",
+          "path": "imgs/folders/yellow grey/yellow grey_Background.png",
           "name": "yellow grey_Background",
           "type": "png"
         },
         {
-          "path": "folders/yellow grey/yellow grey_Desktop.png",
+          "path": "imgs/folders/yellow grey/yellow grey_Desktop.png",
           "name": "yellow grey_Desktop",
           "type": "png"
         },
         {
-          "path": "folders/yellow grey/yellow grey_Documents.png",
+          "path": "imgs/folders/yellow grey/yellow grey_Documents.png",
           "name": "yellow grey_Documents",
           "type": "png"
         },
         {
-          "path": "folders/yellow grey/yellow grey_Download.png",
+          "path": "imgs/folders/yellow grey/yellow grey_Download.png",
           "name": "yellow grey_Download",
           "type": "png"
         },
         {
-          "path": "folders/yellow grey/yellow grey_Links.png",
+          "path": "imgs/folders/yellow grey/yellow grey_Links.png",
           "name": "yellow grey_Links",
           "type": "png"
         },
         {
-          "path": "folders/yellow grey/yellow grey_Music.png",
+          "path": "imgs/folders/yellow grey/yellow grey_Music.png",
           "name": "yellow grey_Music",
           "type": "png"
         },
         {
-          "path": "folders/yellow grey/yellow grey_Pictures.png",
+          "path": "imgs/folders/yellow grey/yellow grey_Pictures.png",
           "name": "yellow grey_Pictures",
           "type": "png"
         },
         {
-          "path": "folders/yellow grey/yellow grey_User.png",
+          "path": "imgs/folders/yellow grey/yellow grey_User.png",
           "name": "yellow grey_User",
           "type": "png"
         },
         {
-          "path": "folders/yellow grey/yellow grey_Users.png",
+          "path": "imgs/folders/yellow grey/yellow grey_Users.png",
           "name": "yellow grey_Users",
           "type": "png"
         },
         {
-          "path": "folders/yellow grey/yellow grey_Videos.png",
+          "path": "imgs/folders/yellow grey/yellow grey_Videos.png",
           "name": "yellow grey_Videos",
           "type": "png"
         },
         {
-          "path": "folders/yellow grey/yellow grey_Windows.png",
+          "path": "imgs/folders/yellow grey/yellow grey_Windows.png",
           "name": "yellow grey_Windows",
           "type": "png"
         }
