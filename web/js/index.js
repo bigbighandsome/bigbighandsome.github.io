@@ -329,6 +329,15 @@ const doms = {
 let inputHasFocus = false;
 
 const search = () => {};
+// Notification.requestPermission().then(function (permission) {
+// 	if (permission === 'granted') {
+// 		new Notification('页面有变化,请更新');
+// 	}
+// });
+
+doms.close.addEventListener('click', (e) => {
+	hideShowInfo();
+});
 
 doms.close.addEventListener('click', (e) => {
 	hideShowInfo();
@@ -337,7 +346,6 @@ doms.close.addEventListener('click', (e) => {
 doms.inputIcon.addEventListener('click', (e) => {
 	search();
 });
-
 doms.small.addEventListener('click', (e) => {
 	showLeftNav();
 	doms.searchInput.focus();
@@ -364,28 +372,28 @@ const setCurStatus = (who) => {
 	who.classList.add('cur');
 };
 doms.mainHome.addEventListener('click', (e) => {
-	createHomePage();
 	setCurStatus(e.target);
+	createHomePage();
 });
 doms.folders.addEventListener('click', (e) => {
-	createFoldersPage();
 	setCurStatus(e.target);
+	createFoldersPage();
 });
 doms.file.addEventListener('click', (e) => {
-	createFilePage();
 	setCurStatus(e.target);
+	createFilePage();
 });
 doms.app.addEventListener('click', (e) => {
-	createAppPage();
 	setCurStatus(e.target);
+	createAppPage();
 });
 doms.company.addEventListener('click', (e) => {
-	createCompanyPage();
 	setCurStatus(e.target);
+	createCompanyPage();
 });
 doms.software.addEventListener('click', (e) => {
-	createSoftwarePage();
 	setCurStatus(e.target);
+	createSoftwarePage();
 });
 doms.searchInput.addEventListener('focusin', (e) => {
 	inputHasFocus = true;
