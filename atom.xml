@@ -6,7 +6,7 @@
   <link href="https://www.quhou.top/atom.xml" rel="self"/>
   
   <link href="https://www.quhou.top/"/>
-  <updated>2024-09-26T14:13:55.789Z</updated>
+  <updated>2024-09-26T16:14:00.180Z</updated>
   <id>https://www.quhou.top/</id>
   
   <author>
@@ -17,13 +17,54 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>大佬博客的收藏夹</title>
+    <link href="https://www.quhou.top/posts/2.html"/>
+    <id>https://www.quhou.top/posts/2.html</id>
+    <published>2024-09-26T15:53:56.352Z</published>
+    <updated>2024-09-26T16:14:00.180Z</updated>
+    
+    <content type="html"><![CDATA[<p>akilar[<a href="https://akilar.top/posts/d2ebecef/">https://akilar.top/posts/d2ebecef/</a>]</p><svg class="icon" style="width:2em; height:2em" aria-hidden="true"><use xlink:href="#icon-baomihua-01"></use></svg><div class='wow animate__bounce' data-wow-duration='' data-wow-delay='' data-wow-offset=''  data-wow-iteration='' ><p><code>flip</code>动画效果。</p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;akilar[&lt;a href=&quot;https://akilar.top/posts/d2ebecef/&quot;&gt;https://akilar.top/posts/d2ebecef/&lt;/a&gt;]&lt;/p&gt;
+&lt;svg class=&quot;icon&quot; style=&quot;width:2em; heigh</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>更新啦</title>
+    <link href="https://www.quhou.top/posts/1.html"/>
+    <id>https://www.quhou.top/posts/1.html</id>
+    <published>2024-09-26T15:14:37.387Z</published>
+    <updated>2024-09-26T15:54:47.752Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="更新了"><a href="#更新了" class="headerlink" title="更新了"></a>更新了</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;更新了&quot;&gt;&lt;a href=&quot;#更新了&quot; class=&quot;headerlink&quot; title=&quot;更新了&quot;&gt;&lt;/a&gt;更新了&lt;/h1&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>如何解决git嵌套导致内层仓库无法被外层仓库识别的问题</title>
     <link href="https://www.quhou.top/posts/0.html"/>
     <id>https://www.quhou.top/posts/0.html</id>
     <published>2024-09-26T14:09:57.206Z</published>
-    <updated>2024-09-26T14:13:55.789Z</updated>
+    <updated>2024-09-26T15:45:49.768Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>在使用git管理项目的时候, 可能会遇到git嵌套的问题, 即内层仓库无法被外层仓库识别的问题.</p><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>__在克隆仓库的时候如果需要别的仓库作为子模块而且需要推送到github&#x2F;gitee&#x2F;gitlab, 那么就要用下面的命令,而不是直接用<code>git clone</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git submodule add https://github.com/chenfengyanyu/fmap-demo.git</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>在使用git管理项目的时候, 可能会遇到git嵌套的问题, 即内层仓库无法被外层仓库识别的问题.</p><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><p>__在克隆仓库的时候如果需要别的仓库作为子模块而且需要推送到github/gitee/gitlab, 那么就要用下面的命令,而不是直接用<code>git clone</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git submodule add https://github.com/chenfengyanyu/fmap-demo.git</span><br></pre></td></tr></table></figure><p class='p center logo large'>Volantis</p><div class="tip "><p>12</p></div>]]></content>
     
     
       
@@ -35,6 +76,8 @@
     
     
     
+    <category term="git" scheme="https://www.quhou.top/tags/git/"/>
+    
   </entry>
   
   <entry>
@@ -42,7 +85,7 @@
     <link href="https://www.quhou.top/posts/4a17b156.html"/>
     <id>https://www.quhou.top/posts/4a17b156.html</id>
     <published>2024-09-26T11:03:18.611Z</published>
-    <updated>2024-09-26T14:13:19.830Z</updated>
+    <updated>2024-09-26T16:00:15.520Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
